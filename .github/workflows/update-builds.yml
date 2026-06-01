@@ -23,11 +23,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install playwright
+          pip install playwright requests
 
       - name: Install Playwright Browsers
         run: |
-          playwright install chromium
+          playwright install --with-deps chromium
 
       - name: Update builds json
         timeout-minutes: 60
