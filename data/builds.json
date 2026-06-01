@@ -1,14 +1,15 @@
 {
-  "updated_at": "2026-06-01T10:32:37.237906+00:00",
-  "source": "opgg-test",
-  "note": "OP.GGのページから勝率などを取得するテスト版。ビルド詳細は現在フォールバック値。",
+  "updated_at": "2026-06-01T10:43:53.535802+00:00",
+  "source": "ugg-test",
+  "ddragon_version": "16.11.1",
+  "note": "U.GG取得テスト版。アイテム取得に失敗した場合はフォールバックビルドを使用。",
   "champions": [
     {
       "name_ja": "アーリ",
       "name_en": "Ahri",
       "lane": "MID",
       "tier": "unknown",
-      "source_url": "https://op.gg/lol/champions/ahri/build/mid",
+      "source_url": "https://u.gg/lol/champions/ahri/build/mid",
       "stats": {
         "win_rate": null,
         "pick_rate": null,
@@ -16,7 +17,7 @@
       },
       "builds": [
         {
-          "name": "OP.GG取得テストビルド",
+          "name": "U.GG取得テストビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -34,9 +35,9 @@
     {
       "name_ja": "ジンクス",
       "name_en": "Jinx",
-      "lane": "BOTTOM",
+      "lane": "ADC",
       "tier": "unknown",
-      "source_url": "https://op.gg/lol/champions/jinx/build/bottom",
+      "source_url": "https://u.gg/lol/champions/jinx/build/adc",
       "stats": {
         "win_rate": null,
         "pick_rate": null,
@@ -44,7 +45,7 @@
       },
       "builds": [
         {
-          "name": "OP.GG取得テストビルド",
+          "name": "U.GG取得テストビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -62,9 +63,9 @@
     {
       "name_ja": "スレッシュ",
       "name_en": "Thresh",
-      "lane": "SUPPORT",
+      "lane": "SUP",
       "tier": "unknown",
-      "source_url": "https://op.gg/lol/champions/thresh/build/support",
+      "source_url": "https://u.gg/lol/champions/thresh/build/support",
       "stats": {
         "win_rate": null,
         "pick_rate": null,
@@ -72,7 +73,7 @@
       },
       "builds": [
         {
-          "name": "OP.GG取得テストビルド",
+          "name": "U.GG取得テストビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
