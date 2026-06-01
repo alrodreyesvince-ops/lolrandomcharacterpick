@@ -1,15 +1,22 @@
 {
-  "updated_at": "2026-06-01T10:23:44.593611+00:00",
-  "source": "test",
+  "updated_at": "2026-06-01T10:32:37.237906+00:00",
+  "source": "opgg-test",
+  "note": "OP.GGのページから勝率などを取得するテスト版。ビルド詳細は現在フォールバック値。",
   "champions": [
     {
       "name_ja": "アーリ",
       "name_en": "Ahri",
       "lane": "MID",
-      "tier": "strong",
+      "tier": "unknown",
+      "source_url": "https://op.gg/lol/champions/ahri/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
       "builds": [
         {
-          "name": "テスト用バーストメイジビルド",
+          "name": "OP.GG取得テストビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -21,6 +28,62 @@
             "目玉コレクター"
           ],
           "skills": "Q → W → E"
+        }
+      ]
+    },
+    {
+      "name_ja": "ジンクス",
+      "name_en": "Jinx",
+      "lane": "BOTTOM",
+      "tier": "unknown",
+      "source_url": "https://op.gg/lol/champions/jinx/build/bottom",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "OP.GG取得テストビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "ルナーン ハリケーン",
+            "インフィニティ エッジ"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "Q → W → E"
+        }
+      ]
+    },
+    {
+      "name_ja": "スレッシュ",
+      "name_en": "Thresh",
+      "lane": "SUPPORT",
+      "tier": "unknown",
+      "source_url": "https://op.gg/lol/champions/thresh/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "OP.GG取得テストビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "Q → E → W"
         }
       ]
     }
