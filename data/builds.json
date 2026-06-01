@@ -1,14 +1,45 @@
 {
-  "updated_at": "2026-06-01T10:55:07.663180+00:00",
-  "source": "ugg-test",
+  "updated_at": "2026-06-01T11:09:06.928158+00:00",
+  "source": "ugg-main-lanes-all-champions",
   "ddragon_version": "16.11.1",
-  "note": "U.GG取得テスト版。アイテム取得に失敗した場合はフォールバックビルドを使用。",
+  "total_entries": 228,
+  "note": "Data Dragonで全チャンピオン取得。各チャンピオンの主要レーンのみU.GGから取得。取得失敗時はフォールバックビルドを使用。",
   "champions": [
+    {
+      "name_ja": "エイトロックス",
+      "name_en": "Aatrox",
+      "champion_id": "Aatrox",
+      "lane": "TOP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/aatrox/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
     {
       "name_ja": "アーリ",
       "name_en": "Ahri",
+      "champion_id": "Ahri",
       "lane": "MID",
-      "tier": "unknown",
+      "tier": "strong",
       "source_url": "https://u.gg/lol/champions/ahri/build/mid",
       "stats": {
         "win_rate": null,
@@ -17,7 +48,7 @@
       },
       "builds": [
         {
-          "name": "U.GG取得テストビルド",
+          "name": "フォールバックビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -28,16 +59,17 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "Q → W → E"
+          "skills": "主力ダメージスキル優先"
         }
       ]
     },
     {
-      "name_ja": "ジンクス",
-      "name_en": "Jinx",
-      "lane": "ADC",
-      "tier": "unknown",
-      "source_url": "https://u.gg/lol/champions/jinx/build/adc",
+      "name_ja": "アカリ",
+      "name_en": "Akali",
+      "champion_id": "Akali",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/akali/build/top",
       "stats": {
         "win_rate": null,
         "pick_rate": null,
@@ -45,27 +77,28 @@
       },
       "builds": [
         {
-          "name": "U.GG取得テストビルド",
+          "name": "フォールバックビルド",
           "items": [
-            "クラーケン スレイヤー",
-            "ルナーン ハリケーン",
-            "インフィニティ エッジ"
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
           ],
           "runes": [
-            "リーサルテンポ",
-            "冷静沈着",
-            "レジェンド: 血脈"
+            "征服者",
+            "凱旋",
+            "背水の陣"
           ],
-          "skills": "Q → W → E"
+          "skills": "主力スキル優先"
         }
       ]
     },
     {
-      "name_ja": "スレッシュ",
-      "name_en": "Thresh",
-      "lane": "SUP",
-      "tier": "unknown",
-      "source_url": "https://u.gg/lol/champions/thresh/build/support",
+      "name_ja": "アカリ",
+      "name_en": "Akali",
+      "champion_id": "Akali",
+      "lane": "MID",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/akali/build/mid",
       "stats": {
         "win_rate": null,
         "pick_rate": null,
@@ -73,7 +106,65 @@
       },
       "builds": [
         {
-          "name": "U.GG取得テストビルド",
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "アクシャン",
+      "name_en": "Akshan",
+      "champion_id": "Akshan",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/akshan/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "アリスター",
+      "name_en": "Alistar",
+      "champion_id": "Alistar",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/alistar/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -84,7 +175,6445 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "Q → E → W"
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "アンベッサ",
+      "name_en": "Ambessa",
+      "champion_id": "Ambessa",
+      "lane": "TOP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/ambessa/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "アンベッサ",
+      "name_en": "Ambessa",
+      "champion_id": "Ambessa",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/ambessa/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "アムム",
+      "name_en": "Amumu",
+      "champion_id": "Amumu",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/amumu/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "アムム",
+      "name_en": "Amumu",
+      "champion_id": "Amumu",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/amumu/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "アニビア",
+      "name_en": "Anivia",
+      "champion_id": "Anivia",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/anivia/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "アニー",
+      "name_en": "Annie",
+      "champion_id": "Annie",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/annie/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "アニー",
+      "name_en": "Annie",
+      "champion_id": "Annie",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/annie/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "アフェリオス",
+      "name_en": "Aphelios",
+      "champion_id": "Aphelios",
+      "lane": "ADC",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/aphelios/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "アッシュ",
+      "name_en": "Ashe",
+      "champion_id": "Ashe",
+      "lane": "ADC",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/ashe/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "アッシュ",
+      "name_en": "Ashe",
+      "champion_id": "Ashe",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/ashe/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "オレリオン・ソル",
+      "name_en": "Aurelion Sol",
+      "champion_id": "AurelionSol",
+      "lane": "MID",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/aurelionsol/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "オーロラ",
+      "name_en": "Aurora",
+      "champion_id": "Aurora",
+      "lane": "MID",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/aurora/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "アジール",
+      "name_en": "Azir",
+      "champion_id": "Azir",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/azir/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "バード",
+      "name_en": "Bard",
+      "champion_id": "Bard",
+      "lane": "SUP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/bard/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ベル＝ヴェス",
+      "name_en": "Bel'Veth",
+      "champion_id": "Belveth",
+      "lane": "JG",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/belveth/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ブリッツクランク",
+      "name_en": "Blitzcrank",
+      "champion_id": "Blitzcrank",
+      "lane": "SUP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/blitzcrank/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ブランド",
+      "name_en": "Brand",
+      "champion_id": "Brand",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/brand/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ブランド",
+      "name_en": "Brand",
+      "champion_id": "Brand",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/brand/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ブランド",
+      "name_en": "Brand",
+      "champion_id": "Brand",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/brand/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ブラウム",
+      "name_en": "Braum",
+      "champion_id": "Braum",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/braum/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ブライアー",
+      "name_en": "Briar",
+      "champion_id": "Briar",
+      "lane": "JG",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/briar/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ケイトリン",
+      "name_en": "Caitlyn",
+      "champion_id": "Caitlyn",
+      "lane": "ADC",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/caitlyn/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "カミール",
+      "name_en": "Camille",
+      "champion_id": "Camille",
+      "lane": "TOP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/camille/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "カミール",
+      "name_en": "Camille",
+      "champion_id": "Camille",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/camille/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "カシオペア",
+      "name_en": "Cassiopeia",
+      "champion_id": "Cassiopeia",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/cassiopeia/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "チョ＝ガス",
+      "name_en": "Cho'Gath",
+      "champion_id": "Chogath",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/chogath/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "コーキ",
+      "name_en": "Corki",
+      "champion_id": "Corki",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/corki/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ダリウス",
+      "name_en": "Darius",
+      "champion_id": "Darius",
+      "lane": "TOP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/darius/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ダイアナ",
+      "name_en": "Diana",
+      "champion_id": "Diana",
+      "lane": "JG",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/diana/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ダイアナ",
+      "name_en": "Diana",
+      "champion_id": "Diana",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/diana/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ドレイヴン",
+      "name_en": "Draven",
+      "champion_id": "Draven",
+      "lane": "ADC",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/draven/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ドクター・ムンド",
+      "name_en": "Dr. Mundo",
+      "champion_id": "DrMundo",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/drmundo/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ドクター・ムンド",
+      "name_en": "Dr. Mundo",
+      "champion_id": "DrMundo",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/drmundo/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "エコー",
+      "name_en": "Ekko",
+      "champion_id": "Ekko",
+      "lane": "JG",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/ekko/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "エコー",
+      "name_en": "Ekko",
+      "champion_id": "Ekko",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/ekko/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "エリス",
+      "name_en": "Elise",
+      "champion_id": "Elise",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/elise/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "イブリン",
+      "name_en": "Evelynn",
+      "champion_id": "Evelynn",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/evelynn/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "エズリアル",
+      "name_en": "Ezreal",
+      "champion_id": "Ezreal",
+      "lane": "ADC",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/ezreal/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "フィドルスティックス",
+      "name_en": "Fiddlesticks",
+      "champion_id": "Fiddlesticks",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/fiddlesticks/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "フィドルスティックス",
+      "name_en": "Fiddlesticks",
+      "champion_id": "Fiddlesticks",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/fiddlesticks/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "フィオラ",
+      "name_en": "Fiora",
+      "champion_id": "Fiora",
+      "lane": "TOP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/fiora/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "フィズ",
+      "name_en": "Fizz",
+      "champion_id": "Fizz",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/fizz/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ガリオ",
+      "name_en": "Galio",
+      "champion_id": "Galio",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/galio/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ガングプランク",
+      "name_en": "Gangplank",
+      "champion_id": "Gangplank",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/gangplank/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ガレン",
+      "name_en": "Garen",
+      "champion_id": "Garen",
+      "lane": "TOP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/garen/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ナー",
+      "name_en": "Gnar",
+      "champion_id": "Gnar",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/gnar/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "グラガス",
+      "name_en": "Gragas",
+      "champion_id": "Gragas",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/gragas/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "グラガス",
+      "name_en": "Gragas",
+      "champion_id": "Gragas",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/gragas/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "グレイブス",
+      "name_en": "Graves",
+      "champion_id": "Graves",
+      "lane": "JG",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/graves/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "グウェン",
+      "name_en": "Gwen",
+      "champion_id": "Gwen",
+      "lane": "TOP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/gwen/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "グウェン",
+      "name_en": "Gwen",
+      "champion_id": "Gwen",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/gwen/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヘカリム",
+      "name_en": "Hecarim",
+      "champion_id": "Hecarim",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/hecarim/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ハイマーディンガー",
+      "name_en": "Heimerdinger",
+      "champion_id": "Heimerdinger",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/heimerdinger/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ハイマーディンガー",
+      "name_en": "Heimerdinger",
+      "champion_id": "Heimerdinger",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/heimerdinger/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "フェイ",
+      "name_en": "Hwei",
+      "champion_id": "Hwei",
+      "lane": "MID",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/hwei/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "イラオイ",
+      "name_en": "Illaoi",
+      "champion_id": "Illaoi",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/illaoi/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "イレリア",
+      "name_en": "Irelia",
+      "champion_id": "Irelia",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/irelia/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "イレリア",
+      "name_en": "Irelia",
+      "champion_id": "Irelia",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/irelia/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "アイバーン",
+      "name_en": "Ivern",
+      "champion_id": "Ivern",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/ivern/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ジャンナ",
+      "name_en": "Janna",
+      "champion_id": "Janna",
+      "lane": "SUP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/janna/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ジャーヴァンⅣ",
+      "name_en": "Jarvan IV",
+      "champion_id": "JarvanIV",
+      "lane": "JG",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/jarvaniv/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ジャックス",
+      "name_en": "Jax",
+      "champion_id": "Jax",
+      "lane": "TOP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/jax/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ジャックス",
+      "name_en": "Jax",
+      "champion_id": "Jax",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/jax/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ジェイス",
+      "name_en": "Jayce",
+      "champion_id": "Jayce",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/jayce/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ジェイス",
+      "name_en": "Jayce",
+      "champion_id": "Jayce",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/jayce/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ジン",
+      "name_en": "Jhin",
+      "champion_id": "Jhin",
+      "lane": "ADC",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/jhin/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ジンクス",
+      "name_en": "Jinx",
+      "champion_id": "Jinx",
+      "lane": "ADC",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/jinx/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "カイ＝サ",
+      "name_en": "Kai'Sa",
+      "champion_id": "Kaisa",
+      "lane": "ADC",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/kaisa/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "カリスタ",
+      "name_en": "Kalista",
+      "champion_id": "Kalista",
+      "lane": "ADC",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/kalista/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "カルマ",
+      "name_en": "Karma",
+      "champion_id": "Karma",
+      "lane": "SUP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/karma/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "カーサス",
+      "name_en": "Karthus",
+      "champion_id": "Karthus",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/karthus/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "カサディン",
+      "name_en": "Kassadin",
+      "champion_id": "Kassadin",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/kassadin/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "カタリナ",
+      "name_en": "Katarina",
+      "champion_id": "Katarina",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/katarina/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ケイル",
+      "name_en": "Kayle",
+      "champion_id": "Kayle",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/kayle/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ケイン",
+      "name_en": "Kayn",
+      "champion_id": "Kayn",
+      "lane": "JG",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/kayn/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ケネン",
+      "name_en": "Kennen",
+      "champion_id": "Kennen",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/kennen/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "カ＝ジックス",
+      "name_en": "Kha'Zix",
+      "champion_id": "Khazix",
+      "lane": "JG",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/khazix/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "キンドレッド",
+      "name_en": "Kindred",
+      "champion_id": "Kindred",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/kindred/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "クレッド",
+      "name_en": "Kled",
+      "champion_id": "Kled",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/kled/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "コグ＝マウ",
+      "name_en": "Kog'Maw",
+      "champion_id": "KogMaw",
+      "lane": "ADC",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/kogmaw/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "カ・サンテ",
+      "name_en": "K'Sante",
+      "champion_id": "KSante",
+      "lane": "TOP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/ksante/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ルブラン",
+      "name_en": "LeBlanc",
+      "champion_id": "Leblanc",
+      "lane": "MID",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/leblanc/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "リー・シン",
+      "name_en": "Lee Sin",
+      "champion_id": "LeeSin",
+      "lane": "JG",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/leesin/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "レオナ",
+      "name_en": "Leona",
+      "champion_id": "Leona",
+      "lane": "SUP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/leona/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "リリア",
+      "name_en": "Lillia",
+      "champion_id": "Lillia",
+      "lane": "JG",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/lillia/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "リサンドラ",
+      "name_en": "Lissandra",
+      "champion_id": "Lissandra",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/lissandra/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ルシアン",
+      "name_en": "Lucian",
+      "champion_id": "Lucian",
+      "lane": "ADC",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/lucian/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ルル",
+      "name_en": "Lulu",
+      "champion_id": "Lulu",
+      "lane": "SUP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/lulu/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ラックス",
+      "name_en": "Lux",
+      "champion_id": "Lux",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/lux/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ラックス",
+      "name_en": "Lux",
+      "champion_id": "Lux",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/lux/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "マルファイト",
+      "name_en": "Malphite",
+      "champion_id": "Malphite",
+      "lane": "TOP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/malphite/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "マルザハール",
+      "name_en": "Malzahar",
+      "champion_id": "Malzahar",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/malzahar/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "マオカイ",
+      "name_en": "Maokai",
+      "champion_id": "Maokai",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/maokai/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "マオカイ",
+      "name_en": "Maokai",
+      "champion_id": "Maokai",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/maokai/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "マオカイ",
+      "name_en": "Maokai",
+      "champion_id": "Maokai",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/maokai/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "マスター・イー",
+      "name_en": "Master Yi",
+      "champion_id": "MasterYi",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/masteryi/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "メル",
+      "name_en": "Mel",
+      "champion_id": "Mel",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/mel/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ミリオ",
+      "name_en": "Milio",
+      "champion_id": "Milio",
+      "lane": "SUP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/milio/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ミス・フォーチュン",
+      "name_en": "Miss Fortune",
+      "champion_id": "MissFortune",
+      "lane": "ADC",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/missfortune/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ウーコン",
+      "name_en": "Wukong",
+      "champion_id": "MonkeyKing",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/wukong/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ウーコン",
+      "name_en": "Wukong",
+      "champion_id": "MonkeyKing",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/wukong/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "モルデカイザー",
+      "name_en": "Mordekaiser",
+      "champion_id": "Mordekaiser",
+      "lane": "TOP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/mordekaiser/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "モルデカイザー",
+      "name_en": "Mordekaiser",
+      "champion_id": "Mordekaiser",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/mordekaiser/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "モルガナ",
+      "name_en": "Morgana",
+      "champion_id": "Morgana",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/morgana/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "モルガナ",
+      "name_en": "Morgana",
+      "champion_id": "Morgana",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/morgana/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ナフィーリ",
+      "name_en": "Naafiri",
+      "champion_id": "Naafiri",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/naafiri/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ナフィーリ",
+      "name_en": "Naafiri",
+      "champion_id": "Naafiri",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/naafiri/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ナミ",
+      "name_en": "Nami",
+      "champion_id": "Nami",
+      "lane": "SUP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/nami/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ナサス",
+      "name_en": "Nasus",
+      "champion_id": "Nasus",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/nasus/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ノーチラス",
+      "name_en": "Nautilus",
+      "champion_id": "Nautilus",
+      "lane": "SUP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/nautilus/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ニーコ",
+      "name_en": "Neeko",
+      "champion_id": "Neeko",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/neeko/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ニーコ",
+      "name_en": "Neeko",
+      "champion_id": "Neeko",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/neeko/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ニダリー",
+      "name_en": "Nidalee",
+      "champion_id": "Nidalee",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/nidalee/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ニーラ",
+      "name_en": "Nilah",
+      "champion_id": "Nilah",
+      "lane": "ADC",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/nilah/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ノクターン",
+      "name_en": "Nocturne",
+      "champion_id": "Nocturne",
+      "lane": "JG",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/nocturne/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヌヌ＆ウィルンプ",
+      "name_en": "Nunu & Willump",
+      "champion_id": "Nunu",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/nunu/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "オラフ",
+      "name_en": "Olaf",
+      "champion_id": "Olaf",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/olaf/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "オラフ",
+      "name_en": "Olaf",
+      "champion_id": "Olaf",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/olaf/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "オリアナ",
+      "name_en": "Orianna",
+      "champion_id": "Orianna",
+      "lane": "MID",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/orianna/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "オーン",
+      "name_en": "Ornn",
+      "champion_id": "Ornn",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/ornn/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "パンテオン",
+      "name_en": "Pantheon",
+      "champion_id": "Pantheon",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/pantheon/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "パンテオン",
+      "name_en": "Pantheon",
+      "champion_id": "Pantheon",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/pantheon/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "パンテオン",
+      "name_en": "Pantheon",
+      "champion_id": "Pantheon",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/pantheon/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "パンテオン",
+      "name_en": "Pantheon",
+      "champion_id": "Pantheon",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/pantheon/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ポッピー",
+      "name_en": "Poppy",
+      "champion_id": "Poppy",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/poppy/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ポッピー",
+      "name_en": "Poppy",
+      "champion_id": "Poppy",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/poppy/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ポッピー",
+      "name_en": "Poppy",
+      "champion_id": "Poppy",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/poppy/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "パイク",
+      "name_en": "Pyke",
+      "champion_id": "Pyke",
+      "lane": "SUP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/pyke/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "キヤナ",
+      "name_en": "Qiyana",
+      "champion_id": "Qiyana",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/qiyana/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "キヤナ",
+      "name_en": "Qiyana",
+      "champion_id": "Qiyana",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/qiyana/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "クイン",
+      "name_en": "Quinn",
+      "champion_id": "Quinn",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/quinn/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ラカン",
+      "name_en": "Rakan",
+      "champion_id": "Rakan",
+      "lane": "SUP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/rakan/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ラムス",
+      "name_en": "Rammus",
+      "champion_id": "Rammus",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/rammus/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "レク＝サイ",
+      "name_en": "Rek'Sai",
+      "champion_id": "RekSai",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/reksai/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "レル",
+      "name_en": "Rell",
+      "champion_id": "Rell",
+      "lane": "SUP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/rell/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "レナータ・グラスク",
+      "name_en": "Renata Glasc",
+      "champion_id": "Renata",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/renata/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "レネクトン",
+      "name_en": "Renekton",
+      "champion_id": "Renekton",
+      "lane": "TOP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/renekton/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "レンガー",
+      "name_en": "Rengar",
+      "champion_id": "Rengar",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/rengar/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "レンガー",
+      "name_en": "Rengar",
+      "champion_id": "Rengar",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/rengar/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "リヴェン",
+      "name_en": "Riven",
+      "champion_id": "Riven",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/riven/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ランブル",
+      "name_en": "Rumble",
+      "champion_id": "Rumble",
+      "lane": "TOP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/rumble/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ライズ",
+      "name_en": "Ryze",
+      "champion_id": "Ryze",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/ryze/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ライズ",
+      "name_en": "Ryze",
+      "champion_id": "Ryze",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/ryze/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "サミーラ",
+      "name_en": "Samira",
+      "champion_id": "Samira",
+      "lane": "ADC",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/samira/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "セジュアニ",
+      "name_en": "Sejuani",
+      "champion_id": "Sejuani",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/sejuani/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "セナ",
+      "name_en": "Senna",
+      "champion_id": "Senna",
+      "lane": "ADC",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/senna/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "セナ",
+      "name_en": "Senna",
+      "champion_id": "Senna",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/senna/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "セラフィーン",
+      "name_en": "Seraphine",
+      "champion_id": "Seraphine",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/seraphine/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "セト",
+      "name_en": "Sett",
+      "champion_id": "Sett",
+      "lane": "TOP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/sett/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "シャコ",
+      "name_en": "Shaco",
+      "champion_id": "Shaco",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/shaco/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "シャコ",
+      "name_en": "Shaco",
+      "champion_id": "Shaco",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/shaco/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "シェン",
+      "name_en": "Shen",
+      "champion_id": "Shen",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/shen/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "シヴァーナ",
+      "name_en": "Shyvana",
+      "champion_id": "Shyvana",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/shyvana/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "シンジド",
+      "name_en": "Singed",
+      "champion_id": "Singed",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/singed/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "サイオン",
+      "name_en": "Sion",
+      "champion_id": "Sion",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/sion/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "シヴィア",
+      "name_en": "Sivir",
+      "champion_id": "Sivir",
+      "lane": "ADC",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/sivir/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "スカーナー",
+      "name_en": "Skarner",
+      "champion_id": "Skarner",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/skarner/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "スモルダー",
+      "name_en": "Smolder",
+      "champion_id": "Smolder",
+      "lane": "ADC",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/smolder/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ソナ",
+      "name_en": "Sona",
+      "champion_id": "Sona",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/sona/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ソラカ",
+      "name_en": "Soraka",
+      "champion_id": "Soraka",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/soraka/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "スウェイン",
+      "name_en": "Swain",
+      "champion_id": "Swain",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/swain/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "サイラス",
+      "name_en": "Sylas",
+      "champion_id": "Sylas",
+      "lane": "MID",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/sylas/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "シンドラ",
+      "name_en": "Syndra",
+      "champion_id": "Syndra",
+      "lane": "MID",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/syndra/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "タム・ケンチ",
+      "name_en": "Tahm Kench",
+      "champion_id": "TahmKench",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/tahmkench/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "タム・ケンチ",
+      "name_en": "Tahm Kench",
+      "champion_id": "TahmKench",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/tahmkench/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "タリヤ",
+      "name_en": "Taliyah",
+      "champion_id": "Taliyah",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/taliyah/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "タリヤ",
+      "name_en": "Taliyah",
+      "champion_id": "Taliyah",
+      "lane": "MID",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/taliyah/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "タロン",
+      "name_en": "Talon",
+      "champion_id": "Talon",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/talon/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "タロン",
+      "name_en": "Talon",
+      "champion_id": "Talon",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/talon/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "タリック",
+      "name_en": "Taric",
+      "champion_id": "Taric",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/taric/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ティーモ",
+      "name_en": "Teemo",
+      "champion_id": "Teemo",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/teemo/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "スレッシュ",
+      "name_en": "Thresh",
+      "champion_id": "Thresh",
+      "lane": "SUP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/thresh/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "トリスターナ",
+      "name_en": "Tristana",
+      "champion_id": "Tristana",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/tristana/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "トリスターナ",
+      "name_en": "Tristana",
+      "champion_id": "Tristana",
+      "lane": "ADC",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/tristana/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "トランドル",
+      "name_en": "Trundle",
+      "champion_id": "Trundle",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/trundle/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "トランドル",
+      "name_en": "Trundle",
+      "champion_id": "Trundle",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/trundle/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "トリンダメア",
+      "name_en": "Tryndamere",
+      "champion_id": "Tryndamere",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/tryndamere/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ツイステッド・フェイト",
+      "name_en": "Twisted Fate",
+      "champion_id": "TwistedFate",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/twistedfate/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "トゥイッチ",
+      "name_en": "Twitch",
+      "champion_id": "Twitch",
+      "lane": "ADC",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/twitch/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ウディア",
+      "name_en": "Udyr",
+      "champion_id": "Udyr",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/udyr/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ウディア",
+      "name_en": "Udyr",
+      "champion_id": "Udyr",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/udyr/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "アーゴット",
+      "name_en": "Urgot",
+      "champion_id": "Urgot",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/urgot/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヴァルス",
+      "name_en": "Varus",
+      "champion_id": "Varus",
+      "lane": "ADC",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/varus/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヴェイン",
+      "name_en": "Vayne",
+      "champion_id": "Vayne",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/vayne/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヴェイン",
+      "name_en": "Vayne",
+      "champion_id": "Vayne",
+      "lane": "ADC",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/vayne/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ベイガー",
+      "name_en": "Veigar",
+      "champion_id": "Veigar",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/veigar/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヴェル＝コズ",
+      "name_en": "Vel'Koz",
+      "champion_id": "Velkoz",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/velkoz/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヴェル＝コズ",
+      "name_en": "Vel'Koz",
+      "champion_id": "Velkoz",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/velkoz/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヴェックス",
+      "name_en": "Vex",
+      "champion_id": "Vex",
+      "lane": "MID",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/vex/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヴァイ",
+      "name_en": "Vi",
+      "champion_id": "Vi",
+      "lane": "JG",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/vi/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヴィエゴ",
+      "name_en": "Viego",
+      "champion_id": "Viego",
+      "lane": "JG",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/viego/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ビクター",
+      "name_en": "Viktor",
+      "champion_id": "Viktor",
+      "lane": "MID",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/viktor/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ブラッドミア",
+      "name_en": "Vladimir",
+      "champion_id": "Vladimir",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/vladimir/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ブラッドミア",
+      "name_en": "Vladimir",
+      "champion_id": "Vladimir",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/vladimir/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ボリベア",
+      "name_en": "Volibear",
+      "champion_id": "Volibear",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/volibear/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ボリベア",
+      "name_en": "Volibear",
+      "champion_id": "Volibear",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/volibear/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ワーウィック",
+      "name_en": "Warwick",
+      "champion_id": "Warwick",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/warwick/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ワーウィック",
+      "name_en": "Warwick",
+      "champion_id": "Warwick",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/warwick/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ザヤ",
+      "name_en": "Xayah",
+      "champion_id": "Xayah",
+      "lane": "ADC",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/xayah/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ゼラス",
+      "name_en": "Xerath",
+      "champion_id": "Xerath",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/xerath/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ゼラス",
+      "name_en": "Xerath",
+      "champion_id": "Xerath",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/xerath/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "シン・ジャオ",
+      "name_en": "Xin Zhao",
+      "champion_id": "XinZhao",
+      "lane": "JG",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/xinzhao/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヤスオ",
+      "name_en": "Yasuo",
+      "champion_id": "Yasuo",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/yasuo/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヤスオ",
+      "name_en": "Yasuo",
+      "champion_id": "Yasuo",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/yasuo/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヤスオ",
+      "name_en": "Yasuo",
+      "champion_id": "Yasuo",
+      "lane": "ADC",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/yasuo/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヨネ",
+      "name_en": "Yone",
+      "champion_id": "Yone",
+      "lane": "TOP",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/yone/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヨネ",
+      "name_en": "Yone",
+      "champion_id": "Yone",
+      "lane": "MID",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/yone/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ヨリック",
+      "name_en": "Yorick",
+      "champion_id": "Yorick",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/yorick/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ユナラ",
+      "name_en": "Yunara",
+      "champion_id": "Yunara",
+      "lane": "ADC",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/yunara/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ユーミ",
+      "name_en": "Yuumi",
+      "champion_id": "Yuumi",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/yuumi/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ザーヘン",
+      "name_en": "Zaahen",
+      "champion_id": "Zaahen",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/zaahen/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ザック",
+      "name_en": "Zac",
+      "champion_id": "Zac",
+      "lane": "TOP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/zac/build/top",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "背水の陣"
+          ],
+          "skills": "主力スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ザック",
+      "name_en": "Zac",
+      "champion_id": "Zac",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/zac/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ゼド",
+      "name_en": "Zed",
+      "champion_id": "Zed",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/zed/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ゼド",
+      "name_en": "Zed",
+      "champion_id": "Zed",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/zed/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ゼリ",
+      "name_en": "Zeri",
+      "champion_id": "Zeri",
+      "lane": "ADC",
+      "tier": "strong",
+      "source_url": "https://u.gg/lol/champions/zeri/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ジグス",
+      "name_en": "Ziggs",
+      "champion_id": "Ziggs",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/ziggs/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ジグス",
+      "name_en": "Ziggs",
+      "champion_id": "Ziggs",
+      "lane": "ADC",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/ziggs/build/adc",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "クラーケン スレイヤー",
+            "インフィニティ エッジ",
+            "ドミニク リガード"
+          ],
+          "runes": [
+            "リーサルテンポ",
+            "冷静沈着",
+            "レジェンド: 血脈"
+          ],
+          "skills": "主力攻撃スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ジリアン",
+      "name_en": "Zilean",
+      "champion_id": "Zilean",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/zilean/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ゾーイ",
+      "name_en": "Zoe",
+      "champion_id": "Zoe",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/zoe/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ザイラ",
+      "name_en": "Zyra",
+      "champion_id": "Zyra",
+      "lane": "JG",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/zyra/build/jungle",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "赤月の刃",
+            "ブラック クリーバー",
+            "ガーディアン エンジェル"
+          ],
+          "runes": [
+            "征服者",
+            "凱旋",
+            "宇宙の英知"
+          ],
+          "skills": "ファームスキル優先"
+        }
+      ]
+    },
+    {
+      "name_ja": "ザイラ",
+      "name_en": "Zyra",
+      "champion_id": "Zyra",
+      "lane": "SUP",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/zyra/build/support",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ソラリのロケット",
+            "騎士の誓い",
+            "リデンプション"
+          ],
+          "runes": [
+            "アフターショック",
+            "生命の泉",
+            "ボーンアーマー"
+          ],
+          "skills": "CC・補助スキル優先"
         }
       ]
     }
