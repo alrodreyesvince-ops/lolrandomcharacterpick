@@ -1,259 +1,146 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>LoL ランダム縛りビルドメーカー</title>
-  <style>
-    :root{--bg:#07111f;--card:#111827;--card2:#0f172a;--line:#334155;--text:#e5e7eb;--muted:#94a3b8;--accent:#38bdf8;--gold:#facc15;--green:#86efac;--red:#fca5a5}
-    *{box-sizing:border-box}body{margin:0;padding:24px;background:radial-gradient(circle at top,#172554 0,#07111f 45%,#020617 100%);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.container{max-width:1250px;margin:0 auto}h1{text-align:center;margin:0 0 8px;font-size:32px}.description{text-align:center;color:var(--muted);margin:0 0 24px}.card{background:rgba(15,23,42,.94);border:1px solid var(--line);border-radius:18px;padding:20px;margin-bottom:18px;box-shadow:0 15px 40px rgba(0,0,0,.28)}.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.player-row{display:grid;grid-template-columns:1.4fr 1fr;gap:10px;margin-bottom:10px}label{display:block;color:#cbd5e1;font-weight:700;margin-bottom:6px;font-size:14px}input,select,button,textarea{width:100%;border-radius:12px;border:1px solid #475569;padding:11px;background:#020617;color:var(--text);font-size:14px}button{border:0;cursor:pointer;font-weight:800;transition:.15s transform,.15s opacity}button:hover{transform:translateY(-1px);opacity:.95}.buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.primary{background:var(--accent);color:#082f49}.secondary{background:#475569;color:white}.danger{background:#ef4444;color:white}.copy{background:#22c55e;color:#052e16}.result-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.result{background:rgba(2,6,23,.82);border:1px solid var(--line);border-radius:18px;padding:16px;overflow:hidden}.result-head{display:grid;grid-template-columns:92px 1fr;gap:14px;align-items:center}.champ-img{width:92px;height:92px;border-radius:18px;object-fit:cover;border:2px solid #475569;background:#111827}.result h3{margin:0 0 8px;font-size:22px;color:var(--gold)}.badge{display:inline-block;background:#1e293b;border:1px solid #475569;border-radius:999px;padding:5px 10px;margin:3px 4px 3px 0;color:#dbeafe;font-size:13px;font-weight:700}.champion{font-size:28px;font-weight:900;margin:4px 0;color:#f8fafc}.build-title{font-size:18px;font-weight:900;color:var(--accent);margin:12px 0 6px}.section-title{font-weight:900;color:#c4b5fd;margin-top:12px}.small{color:var(--muted);font-size:13px;line-height:1.65}.warning{color:var(--red);white-space:pre-line;margin-top:10px}.success{color:var(--green);margin-top:10px}textarea{min-height:220px;margin-top:12px;resize:vertical;line-height:1.6}.item-list,.rune-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}.item-chip,.rune-chip{display:flex;align-items:center;gap:7px;background:#111827;border:1px solid #475569;border-radius:12px;padding:7px 9px;font-size:13px;font-weight:700}.item-chip img,.rune-chip img{width:28px;height:28px;border-radius:7px;object-fit:cover;background:#020617}.loading{color:#fde68a;font-size:13px;margin-top:8px}@media(max-width:1000px){.grid{grid-template-columns:1fr 1fr}.result-grid{grid-template-columns:1fr}}@media(max-width:650px){.grid,.player-row,.result-head{grid-template-columns:1fr}.champ-img{width:100%;height:180px}h1{font-size:25px}}
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>LoL ランダム縛りビルドメーカー</title>
+<style>
+:root{--bg:#07111f;--line:#334155;--text:#e5e7eb;--muted:#94a3b8;--accent:#38bdf8;--gold:#facc15;--green:#86efac;--red:#fca5a5}*{box-sizing:border-box}body{margin:0;padding:24px;background:radial-gradient(circle at top,#172554 0,#07111f 45%,#020617 100%);color:var(--text);font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}.container{max-width:1250px;margin:0 auto}h1{text-align:center;margin:0 0 8px;font-size:32px}.description{text-align:center;color:var(--muted);margin:0 0 24px}.card{background:rgba(15,23,42,.94);border:1px solid var(--line);border-radius:18px;padding:20px;margin-bottom:18px;box-shadow:0 15px 40px rgba(0,0,0,.28)}.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}.player-row{display:grid;grid-template-columns:1.4fr 1fr;gap:10px;margin-bottom:10px}label{display:block;color:#cbd5e1;font-weight:700;margin-bottom:6px;font-size:14px}input,select,button,textarea{width:100%;border-radius:12px;border:1px solid #475569;padding:11px;background:#020617;color:var(--text);font-size:14px}button{border:0;cursor:pointer;font-weight:800;transition:.15s transform,.15s opacity}button:hover{transform:translateY(-1px);opacity:.95}.buttons{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}.primary{background:var(--accent);color:#082f49}.secondary{background:#475569;color:white}.danger{background:#ef4444;color:white}.copy{background:#22c55e;color:#052e16}.result-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}.result{background:rgba(2,6,23,.82);border:1px solid var(--line);border-radius:18px;padding:16px;overflow:hidden}.result-head{display:grid;grid-template-columns:92px 1fr;gap:14px;align-items:center}.champ-img{width:92px;height:92px;border-radius:18px;object-fit:cover;border:2px solid #475569;background:#111827}.result h3{margin:0 0 8px;font-size:22px;color:var(--gold)}.badge{display:inline-block;background:#1e293b;border:1px solid #475569;border-radius:999px;padding:5px 10px;margin:3px 4px 3px 0;color:#dbeafe;font-size:13px;font-weight:700}.champion{font-size:28px;font-weight:900;margin:4px 0;color:#f8fafc}.build-title{font-size:18px;font-weight:900;color:var(--accent);margin:12px 0 6px}.section-title{font-weight:900;color:#c4b5fd;margin-top:12px}.small{color:var(--muted);font-size:13px;line-height:1.65}.warning{color:var(--red);white-space:pre-line;margin-top:10px}.success{color:var(--green);margin-top:10px}textarea{min-height:220px;margin-top:12px;resize:vertical;line-height:1.6}.item-list,.rune-list{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}.item-chip,.rune-chip{display:flex;align-items:center;gap:7px;background:#111827;border:1px solid #475569;border-radius:12px;padding:7px 9px;font-size:13px;font-weight:700}.item-chip img,.rune-chip img{width:28px;height:28px;border-radius:7px;object-fit:cover;background:#020617}.loading{color:#fde68a;font-size:13px;margin-top:8px}@media(max-width:1000px){.grid{grid-template-columns:1fr 1fr}.result-grid{grid-template-columns:1fr}}@media(max-width:650px){.grid,.player-row,.result-head{grid-template-columns:1fr}.champ-img{width:100%;height:180px}h1{font-size:25px}}
+</style>
 </head>
 <body>
 <div class="container">
-  <h1>LoL ランダム縛りビルドメーカー</h1>
-  <p class="description">レーンを選ぶだけで、チャンピオン・ビルド・アイテム・ルーン・スキル順をランダム決定します。</p>
+<h1>LoL ランダム縛りビルドメーカー</h1>
+<p class="description">Data Dragonから全チャンピオンを取得し、レーン・ビルド・アイテム・ルーンをランダム決定します。</p>
 
-  <div class="card">
-    <h2>設定</h2>
-    <div class="grid">
-      <div><label>人数</label><select id="playerCount" onchange="renderPlayers()"><option value="1">1人</option><option value="2">2人</option><option value="3">3人</option><option value="4">4人</option><option value="5">5人</option><option value="6">6人</option><option value="7">7人</option><option value="8">8人</option><option value="9">9人</option><option value="10">10人</option></select></div>
-      <div><label>表示言語</label><select id="languageMode" onchange="rerenderAfterLanguageChange()"><option value="ja">日本語</option><option value="en">English</option></select></div>
-      <div><label>抽選モード</label><select id="powerMode"><option value="all">全部からランダム</option><option value="strong">強キャラ・強ビルドのみ</option><option value="fun">ネタ寄り・縛り強め</option></select></div>
-      <div><label>同じチャンピオン</label><select id="duplicateMode"><option value="no">被りなし</option><option value="yes">被りあり</option></select></div>
-      <div><label>表示</label><select id="detailMode" onchange="renderResults();updateCopyText();"><option value="full">詳細あり</option><option value="simple">簡易表示</option></select></div>
-    </div>
-    <div id="dataStatus" class="loading">画像データを読み込み中...</div>
-  </div>
+<div class="card">
+<h2>設定</h2>
+<div class="grid">
+<div><label>人数</label><select id="playerCount" onchange="renderPlayers()"><option value="1">1人</option><option value="2">2人</option><option value="3">3人</option><option value="4">4人</option><option value="5">5人</option><option value="6">6人</option><option value="7">7人</option><option value="8">8人</option><option value="9">9人</option><option value="10">10人</option></select></div>
+<div><label>表示言語</label><select id="languageMode" onchange="rerenderAfterLanguageChange()"><option value="ja">日本語</option><option value="en">English</option></select></div>
+<div><label>抽選モード</label><select id="powerMode"><option value="all">全部からランダム</option><option value="strong">強キャラ・強ビルドのみ</option><option value="fun">ネタ寄り・縛り強め</option></select></div>
+<div><label>同じチャンピオン</label><select id="duplicateMode"><option value="no">被りなし</option><option value="yes">被りあり</option></select></div>
+<div><label>表示</label><select id="detailMode" onchange="renderResults();updateCopyText();"><option value="full">詳細あり</option><option value="simple">簡易表示</option></select></div>
+</div>
+<div id="dataStatus" class="loading">全チャンピオン・画像データを読み込み中...</div>
+</div>
 
-  <div class="card">
-    <h2>参加者</h2>
-    <div id="players"></div>
-    <div class="buttons">
-      <button class="primary" onclick="generateChallenge()">ランダム決定</button>
-      <button class="secondary" onclick="generateChallenge()">もう一度ランダム</button>
-      <button class="copy" onclick="copyResult()">結果をコピー</button>
-      <button class="danger" onclick="clearResult()">結果リセット</button>
-    </div>
-    <div id="message" class="warning"></div>
-  </div>
+<div class="card">
+<h2>参加者</h2>
+<div id="players"></div>
+<div class="buttons">
+<button class="primary" onclick="generateChallenge()">ランダム決定</button>
+<button class="secondary" onclick="generateChallenge()">もう一度ランダム</button>
+<button class="copy" onclick="copyResult()">結果をコピー</button>
+<button class="danger" onclick="clearResult()">結果リセット</button>
+</div>
+<div id="message" class="warning"></div>
+</div>
 
-  <div class="card">
-    <h2>結果</h2>
-    <div id="results" class="result-grid"></div>
-    <textarea id="copyText" readonly placeholder="ランダム決定後、ここにDiscord用コピー文が表示されます。"></textarea>
-  </div>
+<div class="card">
+<h2>結果</h2>
+<div id="results" class="result-grid"></div>
+<textarea id="copyText" readonly placeholder="ランダム決定後、ここにDiscord用コピー文が表示されます。"></textarea>
+</div>
 </div>
 
 <script>
 const LANES=["TOP","JG","MID","ADC","SUP","なんでも"];
-let ddVersion="";
-let itemMapEn={};
-let itemMapJa={};
-let runeMapEn={};
-let runeMapJa={};
+let ddVersion="", championDb=[], itemMapEn={}, itemMapJa={}, runeMapEn={}, runeMapJa={}, currentResults=[];
 
-const DATA=[
-  {lane:"TOP",champion:{key:"Aatrox",ja:"エイトロックス",en:"Aatrox"},strong:true,builds:[
-    {name:{ja:"ファイター吸収ビルド",en:"Drain Fighter Build"},strong:true,items:[item("Sundered Sky","サンダード スカイ"),item("Black Cleaver","ブラック クリーバー"),item("Sterak's Gage","ステラックの篭手"),item("Death's Dance","デス ダンス"),item("Spirit Visage","スピリット ビサージュ")],runes:[rune("Conqueror","征服者"),rune("Triumph","凱旋"),rune("Legend: Alacrity","レジェンド: 迅速"),rune("Last Stand","背水の陣"),rune("Second Wind","息継ぎ"),rune("Overgrowth","超成長")],skills:"Q → E → W",spell:{ja:"フラッシュ + テレポート",en:"Flash + Teleport"},note:{ja:"Qの3段目を当てることを最優先。集団戦は後入りで回復しながら前線維持。",en:"Prioritize landing the third Q. Enter fights slightly late and sustain through the frontline."}},
-    {name:{ja:"全力ダメージ縛り",en:"Full Damage Challenge"},fun:true,items:[item("Eclipse","赤月の刃"),item("Profane Hydra","プロフェイン ハイドラ"),item("Serylda's Grudge","セリルダの怨恨"),item("Edge of Night","ナイト エッジ"),item("Guardian Angel","ガーディアン エンジェル")],runes:[rune("Conqueror","征服者"),rune("Sudden Impact","サドンインパクト"),rune("Treasure Hunter","貪欲な賞金首狩り")],skills:"Q → E → W",spell:{ja:"フラッシュ + イグナイト",en:"Flash + Ignite"},note:{ja:"防御より火力優先。倒すか倒されるかの縛り。",en:"Prioritize damage over durability. Kill or be killed."}}
-  ]},
-  {lane:"TOP",champion:{key:"Malphite",ja:"マルファイト",en:"Malphite"},strong:true,builds:[
-    {name:{ja:"タンク集団戦ビルド",en:"Teamfight Tank Build"},strong:true,items:[item("Sunfire Aegis","サンファイア イージス"),item("Thornmail","ソーンメイル"),item("Kaenic Rookern","ケイニック ルーケルン"),item("Frozen Heart","フローズン ハート"),item("Jak'Sho, The Protean","変幻自在のジャック=ショー")],runes:[rune("Grasp of the Undying","不死者の握撃"),rune("Shield Bash","シールドバッシュ"),rune("Second Wind","息継ぎ"),rune("Overgrowth","超成長")],skills:"Q → E → W",spell:{ja:"フラッシュ + テレポート",en:"Flash + Teleport"},note:{ja:"Rは敵キャリー複数に当てる。レーンは無理せず耐える。",en:"Look for multi-target ults onto carries. Play lane safely."}},
-    {name:{ja:"APワンコン縛り",en:"AP One-shot Challenge"},fun:true,items:[item("Luden's Companion","ルーデン コンパニオン"),item("Stormsurge","ストームサージ"),item("Shadowflame","シャドウフレイム"),item("Rabadon's Deathcap","ラバドン デスキャップ"),item("Void Staff","ヴォイド スタッフ")],runes:[rune("Arcane Comet","秘儀の彗星"),rune("Manaflow Band","マナフローバンド"),rune("Scorch","追火")],skills:"Q → E → W",spell:{ja:"フラッシュ + イグナイト",en:"Flash + Ignite"},note:{ja:"Rで一撃を狙うネタ寄りビルド。外したら終わり。",en:"Go for one-shot ult plays. If you miss, it gets rough."}}
-  ]},
-  {lane:"JG",champion:{key:"LeeSin",ja:"リー・シン",en:"Lee Sin"},strong:true,builds:[
-    {name:{ja:"序盤ガンク重視ビルド",en:"Early Gank Build"},strong:true,items:[item("Eclipse","赤月の刃"),item("Black Cleaver","ブラック クリーバー"),item("Sundered Sky","サンダード スカイ"),item("Death's Dance","デス ダンス"),item("Guardian Angel","ガーディアン エンジェル")],runes:[rune("Conqueror","征服者"),rune("Triumph","凱旋"),rune("Legend: Alacrity","レジェンド: 迅速"),rune("Magical Footwear","魔法の靴"),rune("Cosmic Insight","宇宙の英知")],skills:"Q → W → E",spell:{ja:"スマイト + フラッシュ",en:"Smite + Flash"},note:{ja:"序盤からレーン介入。Rで敵キャリーを味方側へ蹴る。",en:"Gank early. Use R to kick priority targets toward your team."}},
-    {name:{ja:"インセク強制縛り",en:"Insec Only Challenge"},fun:true,items:[item("Youmuu's Ghostblade","妖夢の霊剣"),item("Eclipse","赤月の刃"),item("Serylda's Grudge","セリルダの怨恨"),item("Edge of Night","ナイト エッジ"),item("Guardian Angel","ガーディアン エンジェル")],runes:[rune("Electrocute","電撃"),rune("Sudden Impact","サドンインパクト"),rune("Treasure Hunter","貪欲な賞金首狩り")],skills:"Q → W → E",spell:{ja:"スマイト + フラッシュ",en:"Smite + Flash"},note:{ja:"キルは必ず派手なキックから狙う縛り。",en:"Only go for flashy kick setups."}}
-  ]},
-  {lane:"JG",champion:{key:"Amumu",ja:"アムム",en:"Amumu"},strong:true,builds:[
-    {name:{ja:"集団戦タンクビルド",en:"Teamfight Tank Build"},strong:true,items:[item("Liandry's Torment","ライアンドリーの仮面"),item("Sunfire Aegis","サンファイア イージス"),item("Abyssal Mask","アビサル マスク"),item("Thornmail","ソーンメイル"),item("Jak'Sho, The Protean","変幻自在のジャック=ショー")],runes:[rune("Aftershock","アフターショック"),rune("Font of Life","生命の泉"),rune("Conditioning","心身調整"),rune("Overgrowth","超成長")],skills:"E → Q → W",spell:{ja:"スマイト + フラッシュ",en:"Smite + Flash"},note:{ja:"QからRで集団戦開始。味方の範囲火力と合わせる。",en:"Start fights with Q into R and layer allied AoE."}}
-  ]},
-  {lane:"MID",champion:{key:"Ahri",ja:"アーリ",en:"Ahri"},strong:true,builds:[
-    {name:{ja:"ピックアップメイジビルド",en:"Pick Mage Build"},strong:true,items:[item("Malignance","マリグナンス"),item("Horizon Focus","ホライゾン フォーカス"),item("Zhonya's Hourglass","ゾーニャの砂時計"),item("Rabadon's Deathcap","ラバドン デスキャップ"),item("Void Staff","ヴォイド スタッフ")],runes:[rune("Electrocute","電撃"),rune("Taste of Blood","血の味わい"),rune("Eyeball Collection","目玉コレクター"),rune("Ultimate Hunter","至極の賞金首狩り")],skills:"Q → W → E",spell:{ja:"フラッシュ + イグナイト",en:"Flash + Ignite"},note:{ja:"Eを当ててからワンコン。Rは逃げにも追撃にも使う。",en:"Land E before committing. Use R for both chase and escape."}},
-    {name:{ja:"チャーム当てるまで帰れない縛り",en:"Charm First Challenge"},fun:true,items:[item("Luden's Companion","ルーデン コンパニオン"),item("Stormsurge","ストームサージ"),item("Shadowflame","シャドウフレイム"),item("Rabadon's Deathcap","ラバドン デスキャップ"),item("Void Staff","ヴォイド スタッフ")],runes:[rune("Electrocute","電撃"),rune("Manaflow Band","マナフローバンド"),rune("Scorch","追火")],skills:"E → Q → W",spell:{ja:"フラッシュ + イグナイト",en:"Flash + Ignite"},note:{ja:"E始動以外のキル禁止にするとかなり縛り感が出ます。",en:"For extra challenge, only kill after landing E first."}}
-  ]},
-  {lane:"MID",champion:{key:"Yasuo",ja:"ヤスオ",en:"Yasuo"},strong:false,builds:[
-    {name:{ja:"クリティカルファイタービルド",en:"Crit Fighter Build"},items:[item("Blade of The Ruined King","ルインドキング ブレード"),item("Infinity Edge","インフィニティ エッジ"),item("Immortal Shieldbow","イモータル シールドボウ"),item("Death's Dance","デス ダンス"),item("Guardian Angel","ガーディアン エンジェル")],runes:[rune("Lethal Tempo","リーサルテンポ"),rune("Triumph","凱旋"),rune("Legend: Alacrity","レジェンド: 迅速"),rune("Last Stand","背水の陣")],skills:"Q → E → W",spell:{ja:"フラッシュ + イグナイト",en:"Flash + Ignite"},note:{ja:"ノックアップに合わせてR。無理な1v5は禁止。",en:"Ult off knockups. No unnecessary 1v5 attempts."}},
-    {name:{ja:"0/10パワースパイク縛り",en:"0/10 Powerspike Challenge"},fun:true,items:[item("Berserker's Greaves","バーサーカー ブーツ"),item("Infinity Edge","インフィニティ エッジ"),item("Phantom Dancer","ファントム ダンサー"),item("Bloodthirster","ブラッドサースター"),item("Guardian Angel","ガーディアン エンジェル")],runes:[rune("Lethal Tempo","リーサルテンポ"),rune("Second Wind","息継ぎ")],skills:"Q → E → W",spell:{ja:"フラッシュ + イグナイト",en:"Flash + Ignite"},note:{ja:"ネタ枠。デス数で盛り上がるが、味方に怒られない範囲で。",en:"Meme option. Keep it fun, not griefy."}}
-  ]},
-  {lane:"ADC",champion:{key:"Jinx",ja:"ジンクス",en:"Jinx"},strong:true,builds:[
-    {name:{ja:"ハイパーキャリーADCビルド",en:"Hyper Carry ADC Build"},strong:true,items:[item("Kraken Slayer","クラーケン スレイヤー"),item("Runaan's Hurricane","ルナーン ハリケーン"),item("Infinity Edge","インフィニティ エッジ"),item("Lord Dominik's Regards","ドミニク リガード"),item("Guardian Angel","ガーディアン エンジェル")],runes:[rune("Lethal Tempo","リーサルテンポ"),rune("Presence of Mind","冷静沈着"),rune("Legend: Bloodline","レジェンド: 血脈"),rune("Coup de Grace","最期の慈悲")],skills:"Q → W → E",spell:{ja:"フラッシュ + ヒール",en:"Flash + Heal"},note:{ja:"序盤は安全にCS。1キル取った後のパッシブ連鎖で集団戦を壊す。",en:"Farm safely early. Chain passive resets in teamfights."}}
-  ]},
-  {lane:"ADC",champion:{key:"Ezreal",ja:"エズリアル",en:"Ezreal"},strong:true,builds:[
-    {name:{ja:"スキルショット連打ビルド",en:"Skillshot Spam Build"},strong:true,items:[item("Trinity Force","トリニティ フォース"),item("Manamune","マナムネ"),item("Serylda's Grudge","セリルダの怨恨"),item("Spear of Shojin","ショウジンの矛"),item("Guardian Angel","ガーディアン エンジェル")],runes:[rune("Press the Attack","プレスアタック"),rune("Presence of Mind","冷静沈着"),rune("Legend: Bloodline","レジェンド: 血脈"),rune("Coup de Grace","最期の慈悲")],skills:"Q → E → W",spell:{ja:"フラッシュ + ヒール",en:"Flash + Heal"},note:{ja:"Qを当て続けてCD短縮。Eは攻めより回避に温存。",en:"Keep landing Q. Save E more for safety than aggression."}},
-    {name:{ja:"APエズリアル縛り",en:"AP Ezreal Challenge"},fun:true,items:[item("Luden's Companion","ルーデン コンパニオン"),item("Lich Bane","リッチ ベイン"),item("Shadowflame","シャドウフレイム"),item("Rabadon's Deathcap","ラバドン デスキャップ"),item("Void Staff","ヴォイド スタッフ")],runes:[rune("First Strike","ファーストストライク"),rune("Manaflow Band","マナフローバンド")],skills:"W → Q → E",spell:{ja:"フラッシュ + バリア",en:"Flash + Barrier"},note:{ja:"W→EやW→Rでバーストを狙うネタ寄り。",en:"Use W into E/R for burst. Meme but playable."}}
-  ]},
-  {lane:"SUP",champion:{key:"Thresh",ja:"スレッシュ",en:"Thresh"},strong:true,builds:[
-    {name:{ja:"ピックアップサポートビルド",en:"Pick Support Build"},strong:true,items:[item("Locket of the Iron Solari","ソラリのロケット"),item("Zeke's Convergence","ジーク コンバージェンス"),item("Knight's Vow","騎士の誓い"),item("Redemption","リデンプション"),item("Mikael's Blessing","ミカエルの祝福")],runes:[rune("Aftershock","アフターショック"),rune("Font of Life","生命の泉"),rune("Bone Plating","ボーンアーマー"),rune("Unflinching","気迫")],skills:"Q → E → W",spell:{ja:"フラッシュ + イグナイト",en:"Flash + Ignite"},note:{ja:"Qで捕まえてEで剥がす。ランタンで味方救出。",en:"Hook targets, peel with E, and save allies with lantern."}},
-    {name:{ja:"魂を集めるだけ縛り",en:"Soul Collector Challenge"},fun:true,items:[item("Heartsteel","ハートスチール"),item("Titanic Hydra","タイタン ハイドラ"),item("Dead Man's Plate","デッドマン プレート"),item("Force of Nature","自然の力"),item("Warmog's Armor","ワーモグ アーマー")],runes:[rune("Grasp of the Undying","不死者の握撃"),rune("Magical Footwear","魔法の靴")],skills:"E → Q → W",spell:{ja:"フラッシュ + イグナイト",en:"Flash + Ignite"},note:{ja:"タンク寄りネタ。魂回収を最優先にする。",en:"Tanky meme build. Prioritize collecting souls."}}
-  ]},
-  {lane:"SUP",champion:{key:"Lux",ja:"ラックス",en:"Lux"},strong:false,builds:[
-    {name:{ja:"ポークメイジサポート",en:"Poke Mage Support"},items:[item("Luden's Companion","ルーデン コンパニオン"),item("Horizon Focus","ホライゾン フォーカス"),item("Morellonomicon","モレロノミコン"),item("Rabadon's Deathcap","ラバドン デスキャップ"),item("Void Staff","ヴォイド スタッフ")],runes:[rune("Arcane Comet","秘儀の彗星"),rune("Manaflow Band","マナフローバンド"),rune("Transcendence","至高"),rune("Scorch","追火")],skills:"E → Q → W",spell:{ja:"フラッシュ + イグナイト",en:"Flash + Ignite"},note:{ja:"Eで削ってQヒットからR。視界管理は忘れない。",en:"Poke with E, combo Q into R, and still ward properly."}},
-    {name:{ja:"ワンコン姫プ縛り",en:"One-shot Princess Challenge"},fun:true,items:[item("Luden's Companion","ルーデン コンパニオン"),item("Stormsurge","ストームサージ"),item("Shadowflame","シャドウフレイム"),item("Rabadon's Deathcap","ラバドン デスキャップ"),item("Void Staff","ヴォイド スタッフ")],runes:[rune("Electrocute","電撃"),rune("Manaflow Band","マナフローバンド")],skills:"Q → E → W",spell:{ja:"フラッシュ + イグナイト",en:"Flash + Ignite"},note:{ja:"Qが当たった相手に全スキルを吐く。外したら後退。",en:"Dump everything after landing Q. Back off if you miss."}}
-  ]}
-];
+const LANE_POOLS={
+TOP:["Aatrox","Akali","Ambessa","Camille","Chogath","Darius","DrMundo","Fiora","Gangplank","Garen","Gnar","Gragas","Gwen","Heimerdinger","Illaoi","Irelia","Jax","Jayce","Kayle","Kennen","Kled","KSante","Malphite","Maokai","Mordekaiser","Nasus","Olaf","Ornn","Pantheon","Poppy","Quinn","Renekton","Rengar","Riven","Rumble","Ryze","Sett","Shen","Singed","Sion","TahmKench","Teemo","Trundle","Tryndamere","Udyr","Urgot","Vayne","Vladimir","Volibear","Warwick","Wukong","Yasuo","Yone","Yorick","Zac"],
+JG:["Amumu","Belveth","Brand","Briar","Diana","DrMundo","Ekko","Elise","Evelynn","Fiddlesticks","Gragas","Graves","Gwen","Hecarim","Ivern","JarvanIV","Jax","Karthus","Kayn","Khazix","Kindred","LeeSin","Lillia","Maokai","MasterYi","MonkeyKing","Mordekaiser","Morgana","Naafiri","Nidalee","Nocturne","Nunu","Olaf","Pantheon","Poppy","Qiyana","Rammus","RekSai","Rengar","Sejuani","Shaco","Shyvana","Skarner","Taliyah","Talon","Trundle","Udyr","Vi","Viego","Volibear","Warwick","XinZhao","Zac","Zed","Zyra"],
+MID:["Ahri","Akali","Akshan","Ambessa","Anivia","Annie","AurelionSol","Aurora","Azir","Brand","Cassiopeia","Corki","Diana","Ekko","Fizz","Galio","Hwei","Irelia","Jayce","Kassadin","Katarina","Leblanc","Lissandra","Lux","Malzahar","Mel","Naafiri","Neeko","Orianna","Pantheon","Qiyana","Ryze","Sylas","Syndra","Taliyah","Talon","Tristana","TwistedFate","Veigar","Velkoz","Vex","Viktor","Vladimir","Xerath","Yasuo","Yone","Zed","Ziggs","Zoe"],
+ADC:["Aphelios","Ashe","Caitlyn","Draven","Ezreal","Jhin","Jinx","Kaisa","Kalista","KogMaw","Lucian","MissFortune","Nilah","Samira","Senna","Sivir","Smolder","Tristana","Twitch","Varus","Vayne","Xayah","Yasuo","Zeri","Ziggs"],
+SUP:["Alistar","Amumu","Annie","Ashe","Bard","Blitzcrank","Brand","Braum","Camille","Fiddlesticks","Heimerdinger","Janna","Karma","Leona","Lulu","Lux","Maokai","Milio","Morgana","Nami","Nautilus","Neeko","Pantheon","Poppy","Pyke","Rakan","Rell","Renata","Senna","Seraphine","Shaco","Sona","Soraka","Swain","TahmKench","Taric","Thresh","Velkoz","Xerath","Yuumi","Zilean","Zyra"]
+};
+const STRONG_BY_LANE={
+TOP:["Aatrox","Ambessa","Camille","Darius","Fiora","Garen","Gwen","Jax","KSante","Malphite","Mordekaiser","Renekton","Rumble","Sett","Yone"],
+JG:["Belveth","Briar","Diana","Ekko","Graves","JarvanIV","Kayn","Khazix","LeeSin","Lillia","Nocturne","Viego","Vi","XinZhao"],
+MID:["Ahri","Akali","AurelionSol","Aurora","Hwei","Leblanc","Orianna","Sylas","Syndra","Taliyah","Vex","Viktor","Yone"],
+ADC:["Ashe","Caitlyn","Ezreal","Jhin","Jinx","Kaisa","Lucian","MissFortune","Varus","Xayah","Zeri"],
+SUP:["Bard","Blitzcrank","Janna","Karma","Leona","Lulu","Milio","Nami","Nautilus","Pyke","Rakan","Rell","Thresh"]
+};
 
-function item(en,ja){return{en,ja}}
-function rune(en,ja){return{en,ja}}
-function t(obj){return obj[lang()]||obj.ja||obj.en||""}
-function lang(){return document.getElementById("languageMode").value}
-function rand(arr){return arr[Math.floor(Math.random()*arr.length)]}
-function shuffle(arr){const a=[...arr];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
-function championName(champ){return lang()==="ja"?champ.ja:champ.en}
-function championImg(champ){return ddVersion?`https://ddragon.leagueoflegends.com/cdn/${ddVersion}/img/champion/${champ.key}.png`:""}
+function item(en,ja){return{en,ja}}function rune(en,ja){return{en,ja}}function lang(){return document.getElementById("languageMode").value}function t(o){return o[lang()]||o.ja||o.en||""}function rand(a){return a[Math.floor(Math.random()*a.length)]}function escapeHtml(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]))}
 function normalizeName(s){return String(s||"").toLowerCase().replace(/[’']/g,"'").replace(/[^a-z0-9ぁ-んァ-ヶー一-龠]/g,"")}
 
-async function loadDDragon(){
-  const status=document.getElementById("dataStatus");
-  try{
-    const versions=await fetch("https://ddragon.leagueoflegends.com/api/versions.json").then(r=>r.json());
-    ddVersion=versions[0];
-    const [itemsEn,itemsJa,runesEn,runesJa]=await Promise.all([
-      fetch(`https://ddragon.leagueoflegends.com/cdn/${ddVersion}/data/en_US/item.json`).then(r=>r.json()),
-      fetch(`https://ddragon.leagueoflegends.com/cdn/${ddVersion}/data/ja_JP/item.json`).then(r=>r.json()),
-      fetch(`https://ddragon.leagueoflegends.com/cdn/${ddVersion}/data/en_US/runesReforged.json`).then(r=>r.json()),
-      fetch(`https://ddragon.leagueoflegends.com/cdn/${ddVersion}/data/ja_JP/runesReforged.json`).then(r=>r.json())
-    ]);
-    itemMapEn=buildItemMap(itemsEn.data);
-    itemMapJa=buildItemMap(itemsJa.data);
-    runeMapEn=buildRuneMap(runesEn);
-    runeMapJa=buildRuneMap(runesJa);
-    status.textContent=`画像データ読み込み完了：Data Dragon ${ddVersion}`;
-    status.className="success";
-    renderResults();
-  }catch(e){
-    status.textContent="画像データの自動読み込みに失敗しました。名前表示のみで利用できます。";
-    status.className="warning";
-  }
-}
-function buildItemMap(data){
-  const map={};
-  Object.entries(data).forEach(([id,it])=>{map[normalizeName(it.name)]={id,name:it.name,img:`https://ddragon.leagueoflegends.com/cdn/${ddVersion}/img/item/${id}.png`}});
-  return map;
-}
-function buildRuneMap(data){
-  const map={};
-  data.forEach(tree=>{
-    map[normalizeName(tree.name)]={name:tree.name,img:`https://ddragon.leagueoflegends.com/cdn/img/${tree.icon}`};
-    tree.slots.forEach(slot=>slot.runes.forEach(r=>{map[normalizeName(r.name)]={name:r.name,img:`https://ddragon.leagueoflegends.com/cdn/img/${r.icon}`}}));
-  });
-  return map;
-}
-function lookupItem(it){
-  const map=lang()==="ja"?itemMapJa:itemMapEn;
-  const fallback=lang()==="ja"?itemMapEn:itemMapJa;
-  return map[normalizeName(t(it))]||fallback[normalizeName(it.en)]||fallback[normalizeName(it.ja)]||null;
-}
-function lookupRune(r){
-  const map=lang()==="ja"?runeMapJa:runeMapEn;
-  const fallback=lang()==="ja"?runeMapEn:runeMapJa;
-  return map[normalizeName(t(r))]||fallback[normalizeName(r.en)]||fallback[normalizeName(r.ja)]||null;
-}
+const GENERIC_BUILDS={
+TOP:[
+{name:{ja:"王道ファイター",en:"Standard Fighter"},strong:true,items:[item("Sundered Sky","サンダード スカイ"),item("Black Cleaver","ブラック クリーバー"),item("Sterak's Gage","ステラックの篭手"),item("Death's Dance","デス ダンス"),item("Spirit Visage","スピリット ビサージュ")],runes:[rune("Conqueror","征服者"),rune("Triumph","凱旋"),rune("Legend: Alacrity","レジェンド: 迅速"),rune("Last Stand","背水の陣")],skills:"主力スキル → 移動/補助スキル → 残り",spell:{ja:"フラッシュ + テレポート",en:"Flash + Teleport"},note:{ja:"ファイター向け。1v1とサイドレーンを重視。",en:"For fighters. Focus side lane and dueling."}},
+{name:{ja:"タンク集団戦",en:"Teamfight Tank"},strong:true,items:[item("Sunfire Aegis","サンファイア イージス"),item("Thornmail","ソーンメイル"),item("Kaenic Rookern","ケイニック ルーケルン"),item("Jak'Sho, The Protean","変幻自在のジャック=ショー"),item("Warmog's Armor","ワーモグ アーマー")],runes:[rune("Grasp of the Undying","不死者の握撃"),rune("Demolish","打ちこわし"),rune("Second Wind","息継ぎ"),rune("Overgrowth","超成長")],skills:"耐久/CCスキル優先",spell:{ja:"フラッシュ + テレポート",en:"Flash + Teleport"},note:{ja:"耐えて集団戦で前に出る。",en:"Scale into teamfights and frontline."}},
+{name:{ja:"APトップ縛り",en:"AP Top Challenge"},fun:true,items:[item("Liandry's Torment","ライアンドリーの仮面"),item("Riftmaker","リフトメーカー"),item("Rylai's Crystal Scepter","リーライ クリスタル セプター"),item("Zhonya's Hourglass","ゾーニャの砂時計"),item("Rabadon's Deathcap","ラバドン デスキャップ")],runes:[rune("Arcane Comet","秘儀の彗星"),rune("Manaflow Band","マナフローバンド"),rune("Scorch","追火")],skills:"魔法ダメージスキル優先",spell:{ja:"フラッシュ + イグナイト",en:"Flash + Ignite"},note:{ja:"APが合わないキャラでも無理やりAP。完全縛り用。",en:"Force AP even on odd champions. Challenge mode."}}
+],
+JG:[
+{name:{ja:"ガンク重視ジャングル",en:"Gank Jungle"},strong:true,items:[item("Eclipse","赤月の刃"),item("Black Cleaver","ブラック クリーバー"),item("Sundered Sky","サンダード スカイ"),item("Death's Dance","デス ダンス"),item("Guardian Angel","ガーディアン エンジェル")],runes:[rune("Conqueror","征服者"),rune("Triumph","凱旋"),rune("Legend: Alacrity","レジェンド: 迅速"),rune("Cosmic Insight","宇宙の英知")],skills:"主力攻撃スキル優先",spell:{ja:"スマイト + フラッシュ",en:"Smite + Flash"},note:{ja:"序盤からレーン介入。オブジェクト管理も忘れずに。",en:"Gank early and keep objective tempo."}},
+{name:{ja:"APジャングル",en:"AP Jungle"},items:[item("Liandry's Torment","ライアンドリーの仮面"),item("Rylai's Crystal Scepter","リーライ クリスタル セプター"),item("Zhonya's Hourglass","ゾーニャの砂時計"),item("Shadowflame","シャドウフレイム"),item("Rabadon's Deathcap","ラバドン デスキャップ")],runes:[rune("Dark Harvest","魂の収穫"),rune("Cheap Shot","追い打ち"),rune("Treasure Hunter","貪欲な賞金首狩り")],skills:"AoE/ファームスキル優先",spell:{ja:"スマイト + フラッシュ",en:"Smite + Flash"},note:{ja:"魔法ダメージ寄せ。ファーム速度と集団戦火力重視。",en:"AP-focused. Prioritize clear speed and AoE damage."}},
+{name:{ja:"移動速度ジャングル縛り",en:"Speed Jungle Challenge"},fun:true,items:[item("Youmuu's Ghostblade","妖夢の霊剣"),item("Dead Man's Plate","デッドマン プレート"),item("Force of Nature","自然の力"),item("Stridebreaker","ストライドブレイカー"),item("Guardian Angel","ガーディアン エンジェル")],runes:[rune("Phase Rush","フェイズラッシュ"),rune("Waterwalking","水走り"),rune("Relentless Hunter","執拗な賞金首狩り")],skills:"移動/接近スキル優先",spell:{ja:"スマイト + ゴースト",en:"Smite + Ghost"},note:{ja:"とにかく走る。ガンク角を無理やり作る。",en:"Run fast and force weird gank angles."}}
+],
+MID:[
+{name:{ja:"バーストメイジ",en:"Burst Mage"},strong:true,items:[item("Luden's Companion","ルーデン コンパニオン"),item("Stormsurge","ストームサージ"),item("Shadowflame","シャドウフレイム"),item("Rabadon's Deathcap","ラバドン デスキャップ"),item("Void Staff","ヴォイド スタッフ")],runes:[rune("Electrocute","電撃"),rune("Taste of Blood","血の味わい"),rune("Eyeball Collection","目玉コレクター"),rune("Ultimate Hunter","至極の賞金首狩り")],skills:"主力ダメージスキル優先",spell:{ja:"フラッシュ + イグナイト",en:"Flash + Ignite"},note:{ja:"ワンコンとローム重視。",en:"Focus burst combos and roaming."}},
+{name:{ja:"スケールメイジ",en:"Scaling Mage"},strong:true,items:[item("Rod of Ages","ロッド オブ エイジス"),item("Archangel's Staff","アークエンジェル スタッフ"),item("Zhonya's Hourglass","ゾーニャの砂時計"),item("Rabadon's Deathcap","ラバドン デスキャップ"),item("Void Staff","ヴォイド スタッフ")],runes:[rune("Arcane Comet","秘儀の彗星"),rune("Manaflow Band","マナフローバンド"),rune("Transcendence","至高"),rune("Gathering Storm","強まる嵐")],skills:"ウェーブクリアスキル優先",spell:{ja:"フラッシュ + テレポート",en:"Flash + Teleport"},note:{ja:"序盤は耐えて後半キャリー。",en:"Scale safely and carry late."}},
+{name:{ja:"ADミッド縛り",en:"AD Mid Challenge"},fun:true,items:[item("Youmuu's Ghostblade","妖夢の霊剣"),item("Profane Hydra","プロフェイン ハイドラ"),item("Serylda's Grudge","セリルダの怨恨"),item("Edge of Night","ナイト エッジ"),item("Guardian Angel","ガーディアン エンジェル")],runes:[rune("Electrocute","電撃"),rune("Sudden Impact","サドンインパクト"),rune("Treasure Hunter","貪欲な賞金首狩り")],skills:"攻撃/接近スキル優先",spell:{ja:"フラッシュ + イグナイト",en:"Flash + Ignite"},note:{ja:"ADが合わないキャラでもAD。ネタ枠。",en:"Force AD even when strange. Meme build."}}
+],
+ADC:[
+{name:{ja:"王道クリティカルADC",en:"Standard Crit ADC"},strong:true,items:[item("Kraken Slayer","クラーケン スレイヤー"),item("Runaan's Hurricane","ルナーン ハリケーン"),item("Infinity Edge","インフィニティ エッジ"),item("Lord Dominik's Regards","ドミニク リガード"),item("Guardian Angel","ガーディアン エンジェル")],runes:[rune("Lethal Tempo","リーサルテンポ"),rune("Presence of Mind","冷静沈着"),rune("Legend: Bloodline","レジェンド: 血脈"),rune("Coup de Grace","最期の慈悲")],skills:"主力攻撃スキル優先",spell:{ja:"フラッシュ + ヒール",en:"Flash + Heal"},note:{ja:"安全にCSして集団戦で火力を出す。",en:"Farm safely and DPS in teamfights."}},
+{name:{ja:"オンヒットADC",en:"On-hit ADC"},strong:true,items:[item("Blade of The Ruined King","ルインドキング ブレード"),item("Guinsoo's Rageblade","グインソー レイジブレード"),item("Terminus","テルミヌス"),item("Wit's End","ウィッツ エンド"),item("Guardian Angel","ガーディアン エンジェル")],runes:[rune("Press the Attack","プレスアタック"),rune("Presence of Mind","冷静沈着"),rune("Legend: Alacrity","レジェンド: 迅速")],skills:"通常攻撃強化スキル優先",spell:{ja:"フラッシュ + ヒール",en:"Flash + Heal"},note:{ja:"通常攻撃を当て続ける。",en:"Keep auto-attacking consistently."}},
+{name:{ja:"APボット縛り",en:"AP Bot Challenge"},fun:true,items:[item("Luden's Companion","ルーデン コンパニオン"),item("Lich Bane","リッチ ベイン"),item("Shadowflame","シャドウフレイム"),item("Rabadon's Deathcap","ラバドン デスキャップ"),item("Void Staff","ヴォイド スタッフ")],runes:[rune("First Strike","ファーストストライク"),rune("Manaflow Band","マナフローバンド")],skills:"魔法/ポークスキル優先",spell:{ja:"フラッシュ + バリア",en:"Flash + Barrier"},note:{ja:"APが合わないADCでもAP。縛り用。",en:"Force AP bot. Challenge mode."}}
+],
+SUP:[
+{name:{ja:"エンゲージサポート",en:"Engage Support"},strong:true,items:[item("Locket of the Iron Solari","ソラリのロケット"),item("Zeke's Convergence","ジーク コンバージェンス"),item("Knight's Vow","騎士の誓い"),item("Redemption","リデンプション"),item("Mikael's Blessing","ミカエルの祝福")],runes:[rune("Aftershock","アフターショック"),rune("Font of Life","生命の泉"),rune("Bone Plating","ボーンアーマー"),rune("Unflinching","気迫")],skills:"CCスキル優先",spell:{ja:"フラッシュ + イグナイト",en:"Flash + Ignite"},note:{ja:"視界を取り、先手で捕まえる。",en:"Control vision and start fights."}},
+{name:{ja:"エンチャンターサポート",en:"Enchanter Support"},strong:true,items:[item("Moonstone Renewer","ムーンストーンの再生"),item("Ardent Censer","アーデント センサー"),item("Staff of Flowing Water","フロー ウォーター スタッフ"),item("Mikael's Blessing","ミカエルの祝福"),item("Redemption","リデンプション")],runes:[rune("Summon Aery","エアリー召喚"),rune("Manaflow Band","マナフローバンド"),rune("Transcendence","至高")],skills:"シールド/回復スキル優先",spell:{ja:"フラッシュ + イグゾースト",en:"Flash + Exhaust"},note:{ja:"味方キャリーを守る。",en:"Protect your carry."}},
+{name:{ja:"火力サポート縛り",en:"Damage Support Challenge"},fun:true,items:[item("Luden's Companion","ルーデン コンパニオン"),item("Horizon Focus","ホライゾン フォーカス"),item("Shadowflame","シャドウフレイム"),item("Morellonomicon","モレロノミコン"),item("Rabadon's Deathcap","ラバドン デスキャップ")],runes:[rune("Arcane Comet","秘儀の彗星"),rune("Manaflow Band","マナフローバンド"),rune("Scorch","追火")],skills:"ポークスキル優先",spell:{ja:"フラッシュ + イグナイト",en:"Flash + Ignite"},note:{ja:"サポートだけど火力全振り。視界管理は忘れない。",en:"Full damage support, but still ward."}}
+]
+};
 
-function renderPlayers(){
-  const count=Number(document.getElementById("playerCount").value);
-  const box=document.getElementById("players");
-  const oldRows=[...document.querySelectorAll(".player-row")].map(row=>({name:row.querySelector(".playerName")?.value||"",lane:row.querySelector(".playerLane")?.value||"TOP"}));
-  box.innerHTML="";
-  for(let i=0;i<count;i++){
-    const row=document.createElement("div");
-    row.className="player-row";
-    const old=oldRows[i]||{};
-    row.innerHTML=`<input class="playerName" placeholder="プレイヤー${i+1}の名前" value="${escapeHtml(old.name||"")}"/><select class="playerLane">${LANES.map(l=>`<option value="${l}" ${old.lane===l?"selected":""}>${l}</option>`).join("")}</select>`;
-    box.appendChild(row);
-  }
+async function loadDDragon(){
+ const status=document.getElementById("dataStatus");
+ try{
+  const versions=await fetch("https://ddragon.leagueoflegends.com/api/versions.json").then(r=>r.json());ddVersion=versions[0];
+  const [champEn,champJa,itemsEn,itemsJa,runesEn,runesJa]=await Promise.all([
+   fetch(`https://ddragon.leagueoflegends.com/cdn/${ddVersion}/data/en_US/champion.json`).then(r=>r.json()),
+   fetch(`https://ddragon.leagueoflegends.com/cdn/${ddVersion}/data/ja_JP/champion.json`).then(r=>r.json()),
+   fetch(`https://ddragon.leagueoflegends.com/cdn/${ddVersion}/data/en_US/item.json`).then(r=>r.json()),
+   fetch(`https://ddragon.leagueoflegends.com/cdn/${ddVersion}/data/ja_JP/item.json`).then(r=>r.json()),
+   fetch(`https://ddragon.leagueoflegends.com/cdn/${ddVersion}/data/en_US/runesReforged.json`).then(r=>r.json()),
+   fetch(`https://ddragon.leagueoflegends.com/cdn/${ddVersion}/data/ja_JP/runesReforged.json`).then(r=>r.json())
+  ]);
+  championDb=Object.values(champEn.data).map(c=>({key:c.id,en:c.name,ja:champJa.data[c.id]?.name||c.name,tags:c.tags||[]}));
+  itemMapEn=buildItemMap(itemsEn.data);itemMapJa=buildItemMap(itemsJa.data);runeMapEn=buildRuneMap(runesEn);runeMapJa=buildRuneMap(runesJa);
+  status.textContent=`全${championDb.length}体のチャンピオンを読み込みました：Data Dragon ${ddVersion}`;status.className="success";
+ }catch(e){status.textContent="データ読み込みに失敗しました。時間をおいて再読み込みしてください。";status.className="warning";}
 }
-function escapeHtml(s){return String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]))}
-function getCandidates(lane,mode,usedChampions){
-  let candidates=DATA.filter(d=>lane==="なんでも"||d.lane===lane);
-  if(mode==="strong") candidates=candidates.filter(d=>d.strong&&d.builds.some(b=>b.strong));
-  if(mode==="fun") candidates=candidates.filter(d=>d.builds.some(b=>b.fun));
-  if(document.getElementById("duplicateMode").value==="no") candidates=candidates.filter(d=>!usedChampions.has(d.champion.key));
-  return candidates;
+function buildItemMap(data){const m={};Object.entries(data).forEach(([id,it])=>{m[normalizeName(it.name)]={id,name:it.name,img:`https://ddragon.leagueoflegends.com/cdn/${ddVersion}/img/item/${id}.png`}});return m}
+function buildRuneMap(data){const m={};data.forEach(tree=>{m[normalizeName(tree.name)]={name:tree.name,img:`https://ddragon.leagueoflegends.com/cdn/img/${tree.icon}`};tree.slots.forEach(slot=>slot.runes.forEach(r=>{m[normalizeName(r.name)]={name:r.name,img:`https://ddragon.leagueoflegends.com/cdn/img/${r.icon}`}}))});return m}
+function lookupItem(it){const map=lang()==="ja"?itemMapJa:itemMapEn,fb=lang()==="ja"?itemMapEn:itemMapJa;return map[normalizeName(t(it))]||fb[normalizeName(it.en)]||fb[normalizeName(it.ja)]||null}
+function lookupRune(r){const map=lang()==="ja"?runeMapJa:runeMapEn,fb=lang()==="ja"?runeMapEn:runeMapJa;return map[normalizeName(t(r))]||fb[normalizeName(r.en)]||fb[normalizeName(r.ja)]||null}
+function championName(c){return lang()==="ja"?c.ja:c.en}function championImg(c){return ddVersion?`https://ddragon.leagueoflegends.com/cdn/${ddVersion}/img/champion/${c.key}.png`:""}
+
+function renderPlayers(){const count=Number(document.getElementById("playerCount").value),box=document.getElementById("players");const old=[...document.querySelectorAll(".player-row")].map(r=>({name:r.querySelector(".playerName")?.value||"",lane:r.querySelector(".playerLane")?.value||"TOP"}));box.innerHTML="";for(let i=0;i<count;i++){const o=old[i]||{};const row=document.createElement("div");row.className="player-row";row.innerHTML=`<input class="playerName" placeholder="プレイヤー${i+1}の名前" value="${escapeHtml(o.name||"")}"/><select class="playerLane">${LANES.map(l=>`<option value="${l}" ${o.lane===l?"selected":""}>${l}</option>`).join("")}</select>`;box.appendChild(row)}}
+function getChampionCandidates(lane,mode,used){
+ let pool=[];
+ if(lane==="なんでも") pool=championDb;
+ else{const keys=new Set(LANE_POOLS[lane]||[]);pool=championDb.filter(c=>keys.has(c.key));}
+ if(mode==="strong"&&lane!=="なんでも"){const strongKeys=new Set(STRONG_BY_LANE[lane]||[]);pool=pool.filter(c=>strongKeys.has(c.key));}
+ if(document.getElementById("duplicateMode").value==="no") pool=pool.filter(c=>!used.has(c.key));
+ if(!pool.length&&lane!=="なんでも") pool=championDb.filter(c=>(LANE_POOLS[lane]||[]).includes(c.key));
+ if(!pool.length) pool=championDb;
+ return pool;
 }
-function pickBuild(championData,mode){
-  let builds=championData.builds;
-  if(mode==="strong") builds=builds.filter(b=>b.strong);
-  if(mode==="fun") builds=builds.filter(b=>b.fun);
-  if(!builds.length) builds=championData.builds;
-  return rand(builds);
-}
-let currentResults=[];
-function generateChallenge(){
-  const rows=[...document.querySelectorAll(".player-row")];
-  const mode=document.getElementById("powerMode").value;
-  const usedChampions=new Set();
-  const results=[];
-  const message=document.getElementById("message");
-  message.className="warning";message.textContent="";
-  rows.forEach((row,index)=>{
-    const name=row.querySelector(".playerName").value.trim()||`プレイヤー${index+1}`;
-    const selectedLane=row.querySelector(".playerLane").value;
-    let candidates=getCandidates(selectedLane,mode,usedChampions);
-    if(!candidates.length)candidates=getCandidates(selectedLane,"all",usedChampions);
-    if(!candidates.length)candidates=DATA.filter(d=>selectedLane==="なんでも"||d.lane===selectedLane);
-    const championData=rand(candidates);
-    const build=pickBuild(championData,mode);
-    usedChampions.add(championData.champion.key);
-    results.push({name,selectedLane,lane:championData.lane,champion:championData.champion,build});
-  });
-  currentResults=results;
-  renderResults();
-  updateCopyText();
-}
-function rerenderAfterLanguageChange(){renderResults();updateCopyText();}
-function renderResults(){
-  const box=document.getElementById("results");
-  const detail=document.getElementById("detailMode").value;
-  box.innerHTML="";
-  currentResults.forEach(r=>{
-    const div=document.createElement("div");
-    div.className="result";
-    const champImg=championImg(r.champion);
-    div.innerHTML=`
-      <div class="result-head">
-        ${champImg?`<img class="champ-img" src="${champImg}" alt="${championName(r.champion)}">`:`<div class="champ-img"></div>`}
-        <div>
-          <h3>${escapeHtml(r.name)}</h3>
-          <span class="badge">選択:${r.selectedLane}</span><span class="badge">担当:${r.lane}</span>
-          <div class="champion">${championName(r.champion)}</div>
-          <div class="build-title">${t(r.build.name)}</div>
-        </div>
-      </div>
-      ${detail==="full"?detailHtml(r):simpleHtml(r)}
-    `;
-    box.appendChild(div);
-  });
-}
-function itemChipHtml(it){
-  const found=lookupItem(it);
-  const name=t(it);
-  return `<span class="item-chip">${found?`<img src="${found.img}" alt="${name}">`:""}<span>${name}</span></span>`;
-}
-function runeChipHtml(r){
-  const found=lookupRune(r);
-  const name=t(r);
-  return `<span class="rune-chip">${found?`<img src="${found.img}" alt="${name}">`:""}<span>${name}</span></span>`;
-}
-function detailHtml(r){
-  return `<div class="section-title">アイテム</div><div class="item-list">${r.build.items.map(itemChipHtml).join("")}</div><div class="section-title">ルーン</div><div class="rune-list">${r.build.runes.map(runeChipHtml).join("")}</div><div class="section-title">スキル順</div><div class="small">${r.build.skills}</div><div class="section-title">サモナースペル</div><div class="small">${t(r.build.spell)}</div><div class="section-title">プレイ縛り / メモ</div><div class="small">${t(r.build.note)}</div>`;
-}
-function simpleHtml(r){return `<div class="small">${r.build.items.map(t).join(" → ")}</div>`}
-function makeText(){
-  if(!currentResults.length)return"";
-  const title=lang()==="ja"?"【LoL ランダム縛り結果】":"【LoL Random Challenge Result】";
-  return title+"\n\n"+currentResults.map(r=>`${r.name}\n${lang()==="ja"?"レーン":"Lane"}：${r.lane}\n${lang()==="ja"?"チャンピオン":"Champion"}：${championName(r.champion)}\n${lang()==="ja"?"ビルド":"Build"}：${t(r.build.name)}\n${lang()==="ja"?"アイテム":"Items"}：${r.build.items.map(t).join(" → ")}\n${lang()==="ja"?"ルーン":"Runes"}：${r.build.runes.map(t).join(" / ")}\n${lang()==="ja"?"スキル順":"Skill Order"}：${r.build.skills}\n${lang()==="ja"?"スペル":"Spells"}：${t(r.build.spell)}\n${lang()==="ja"?"メモ":"Note"}：${t(r.build.note)}`).join("\n\n--------------------\n\n");
-}
+function pickBuild(lane,mode){let builds=GENERIC_BUILDS[lane]||GENERIC_BUILDS.TOP;if(mode==="strong") builds=builds.filter(b=>b.strong);if(mode==="fun") builds=builds.filter(b=>b.fun);if(!builds.length) builds=GENERIC_BUILDS[lane]||GENERIC_BUILDS.TOP;return rand(builds)}
+function generateChallenge(){const msg=document.getElementById("message");msg.className="warning";msg.textContent="";if(!championDb.length){msg.textContent="まだチャンピオンデータを読み込み中です。少し待ってから押してください。";return}const mode=document.getElementById("powerMode").value,used=new Set(),res=[];[...document.querySelectorAll(".player-row")].forEach((row,i)=>{const name=row.querySelector(".playerName").value.trim()||`プレイヤー${i+1}`;const selectedLane=row.querySelector(".playerLane").value;const lane=selectedLane==="なんでも"?rand(["TOP","JG","MID","ADC","SUP"]):selectedLane;const champ=rand(getChampionCandidates(lane,mode,used));used.add(champ.key);res.push({name,selectedLane,lane,champion:champ,build:pickBuild(lane,mode)})});currentResults=res;renderResults();updateCopyText()}
+function rerenderAfterLanguageChange(){renderResults();updateCopyText()}
+function renderResults(){const box=document.getElementById("results"),detail=document.getElementById("detailMode").value;box.innerHTML="";currentResults.forEach(r=>{const div=document.createElement("div");div.className="result";div.innerHTML=`<div class="result-head"><img class="champ-img" src="${championImg(r.champion)}" alt="${championName(r.champion)}"><div><h3>${escapeHtml(r.name)}</h3><span class="badge">選択:${r.selectedLane}</span><span class="badge">担当:${r.lane}</span><div class="champion">${championName(r.champion)}</div><div class="build-title">${t(r.build.name)}</div></div></div>${detail==="full"?detailHtml(r):simpleHtml(r)}`;box.appendChild(div)})}
+function itemChipHtml(it){const f=lookupItem(it),name=t(it);return`<span class="item-chip">${f?`<img src="${f.img}" alt="${name}">`:""}<span>${name}</span></span>`}
+function runeChipHtml(r){const f=lookupRune(r),name=t(r);return`<span class="rune-chip">${f?`<img src="${f.img}" alt="${name}">`:""}<span>${name}</span></span>`}
+function detailHtml(r){return`<div class="section-title">アイテム</div><div class="item-list">${r.build.items.map(itemChipHtml).join("")}</div><div class="section-title">ルーン</div><div class="rune-list">${r.build.runes.map(runeChipHtml).join("")}</div><div class="section-title">スキル順</div><div class="small">${r.build.skills}</div><div class="section-title">サモナースペル</div><div class="small">${t(r.build.spell)}</div><div class="section-title">プレイ縛り / メモ</div><div class="small">${t(r.build.note)}</div>`}
+function simpleHtml(r){return`<div class="small">${r.build.items.map(t).join(" → ")}</div>`}
+function makeText(){if(!currentResults.length)return"";const title=lang()==="ja"?"【LoL ランダム縛り結果】":"【LoL Random Challenge Result】";return title+"\n\n"+currentResults.map(r=>`${r.name}\n${lang()==="ja"?"レーン":"Lane"}：${r.lane}\n${lang()==="ja"?"チャンピオン":"Champion"}：${championName(r.champion)}\n${lang()==="ja"?"ビルド":"Build"}：${t(r.build.name)}\n${lang()==="ja"?"アイテム":"Items"}：${r.build.items.map(t).join(" → ")}\n${lang()==="ja"?"ルーン":"Runes"}：${r.build.runes.map(t).join(" / ")}\n${lang()==="ja"?"スキル順":"Skill Order"}：${r.build.skills}\n${lang()==="ja"?"スペル":"Spells"}：${t(r.build.spell)}\n${lang()==="ja"?"メモ":"Note"}：${t(r.build.note)}`).join("\n\n--------------------\n\n")}
 function updateCopyText(){document.getElementById("copyText").value=makeText()}
-function copyResult(){
-  const text=makeText();const msg=document.getElementById("message");
-  if(!text){msg.className="warning";msg.textContent="先にランダム決定してください。";return}
-  navigator.clipboard.writeText(text).then(()=>{msg.className="success";msg.textContent="結果をコピーしました。Discordなどに貼り付けできます。"}).catch(()=>{document.getElementById("copyText").select();msg.className="warning";msg.textContent="自動コピーできませんでした。下のテキスト欄を手動コピーしてください。"});
-}
+function copyResult(){const text=makeText(),msg=document.getElementById("message");if(!text){msg.className="warning";msg.textContent="先にランダム決定してください。";return}navigator.clipboard.writeText(text).then(()=>{msg.className="success";msg.textContent="結果をコピーしました。Discordなどに貼り付けできます。"}).catch(()=>{document.getElementById("copyText").select();msg.className="warning";msg.textContent="自動コピーできませんでした。下のテキスト欄を手動コピーしてください。"})}
 function clearResult(){currentResults=[];document.getElementById("results").innerHTML="";document.getElementById("copyText").value="";document.getElementById("message").textContent=""}
-renderPlayers();
-loadDDragon();
+renderPlayers();loadDDragon();
 </script>
 </body>
 </html>
