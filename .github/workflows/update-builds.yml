@@ -23,7 +23,11 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install requests beautifulsoup4
+          pip install playwright
+
+      - name: Install Playwright Browsers
+        run: |
+          playwright install chromium
 
       - name: Update builds json
         timeout-minutes: 60
@@ -37,4 +41,3 @@ jobs:
           git add data/builds.json
           git commit -m "Update LoL builds" || echo "No changes"
           git push
-
