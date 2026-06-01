@@ -21,6 +21,10 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4
+
       - name: Update builds json
         run: |
           python scripts/update_builds.py
