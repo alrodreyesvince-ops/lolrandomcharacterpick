@@ -1,5 +1,28 @@
 {
-  "updated_at": "",
-  "source": "manual",
-  "champions": []
+  "updated_at": "2026-06-01T10:23:44.593611+00:00",
+  "source": "test",
+  "champions": [
+    {
+      "name_ja": "アーリ",
+      "name_en": "Ahri",
+      "lane": "MID",
+      "tier": "strong",
+      "builds": [
+        {
+          "name": "テスト用バーストメイジビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ラバドン デスキャップ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "Q → W → E"
+        }
+      ]
+    }
+  ]
 }
