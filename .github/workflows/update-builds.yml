@@ -26,6 +26,7 @@ jobs:
           pip install requests beautifulsoup4
 
       - name: Update builds json
+        timeout-minutes: 60
         run: |
           python scripts/update_builds.py
 
@@ -36,3 +37,4 @@ jobs:
           git add data/builds.json
           git commit -m "Update LoL builds" || echo "No changes"
           git push
+
