@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-06T00:36:22.310762+00:00",
+  "updated_at": "2026-06-07T00:13:38.736548+00:00",
   "source": "ugg-playwright-main-lanes-v1",
   "ddragon_version": "16.11.1",
   "total_entries": 225,
@@ -153,9 +153,9 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/akshan/build/mid",
       "stats": {
-        "win_rate": "50.4%",
+        "win_rate": "50.3%",
         "pick_rate": "2.7%",
-        "ban_rate": "3%"
+        "ban_rate": "2.9%"
       },
       "builds": [
         {
@@ -163,7 +163,7 @@
           "items": [
             "コレクター",
             "ヒュブリス",
-            "クラーケン スレイヤー"
+            "ナッシャー トゥース"
           ],
           "runes": [
             "電撃",
@@ -221,9 +221,9 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/ambessa/build/top",
       "stats": {
-        "win_rate": "48.94%",
+        "win_rate": "49.03%",
         "pick_rate": "3.3%",
-        "ban_rate": "8.6%"
+        "ban_rate": "8.5%"
       },
       "builds": [
         {
@@ -256,9 +256,9 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/ambessa/build/mid",
       "stats": {
-        "win_rate": "49.9%",
+        "win_rate": "49.94%",
         "pick_rate": "0.3%",
-        "ban_rate": "8.6%"
+        "ban_rate": "8.5%"
       },
       "builds": [
         {
@@ -397,7 +397,7 @@
       "source_url": "https://u.gg/lol/champions/annie/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": "2.9%",
+        "pick_rate": "2.8%",
         "ban_rate": "0.8%"
       },
       "builds": [
@@ -466,7 +466,7 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/aphelios/build/adc",
       "stats": {
-        "win_rate": "49.53%",
+        "win_rate": "49.44%",
         "pick_rate": "4.3%",
         "ban_rate": "1.5%"
       },
@@ -604,7 +604,7 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/aurora/build/mid",
       "stats": {
-        "win_rate": "49.69%",
+        "win_rate": "49.76%",
         "pick_rate": "3%",
         "ban_rate": "2.2%"
       },
@@ -709,7 +709,7 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/belveth/build/jungle",
       "stats": {
-        "win_rate": "52.04%",
+        "win_rate": "51.91%",
         "pick_rate": "2%",
         "ban_rate": "3.3%"
       },
@@ -746,7 +746,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "5%",
-        "ban_rate": "10.7%"
+        "ban_rate": "10.8%"
       },
       "builds": [
         {
@@ -781,7 +781,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "0.5%",
-        "ban_rate": "10.6%"
+        "ban_rate": "10.8%"
       },
       "builds": [
         {
@@ -816,7 +816,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "1.3%",
-        "ban_rate": "10.6%"
+        "ban_rate": "10.8%"
       },
       "builds": [
         {
@@ -851,7 +851,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "3.3%",
-        "ban_rate": "10.6%"
+        "ban_rate": "10.8%"
       },
       "builds": [
         {
@@ -919,8 +919,8 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/briar/build/jungle",
       "stats": {
-        "win_rate": "51.02%",
-        "pick_rate": "4.6%",
+        "win_rate": "50.92%",
+        "pick_rate": "4.7%",
         "ban_rate": "9%"
       },
       "builds": [
@@ -928,6 +928,7 @@
           "name": "U.GG自動取得ビルド",
           "items": [
             "コレクター",
+            "タイタン ハイドラ",
             "ボルテイク サイクロソード",
             "ルインドキング ブレード"
           ],
@@ -988,7 +989,7 @@
       "source_url": "https://u.gg/lol/champions/camille/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": "2.8%",
+        "pick_rate": "2.7%",
         "ban_rate": "1%"
       },
       "builds": [
@@ -1198,7 +1199,7 @@
       "source_url": "https://u.gg/lol/champions/diana/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": "6.6%",
+        "pick_rate": "6.5%",
         "ban_rate": "7.1%"
       },
       "builds": [
@@ -1303,7 +1304,7 @@
       "source_url": "https://u.gg/lol/champions/drmundo/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": "3.7%",
+        "pick_rate": "3.8%",
         "ban_rate": "3%"
       },
       "builds": [
@@ -1478,7 +1479,7 @@
       "source_url": "https://u.gg/lol/champions/evelynn/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": "2.8%",
+        "pick_rate": "2.7%",
         "ban_rate": "2.8%"
       },
       "builds": [
@@ -1545,7 +1546,7 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/fiddlesticks/build/jungle",
       "stats": {
-        "win_rate": "50.76%",
+        "win_rate": "50.88%",
         "pick_rate": "2.1%",
         "ban_rate": "1.5%"
       },
@@ -1580,7 +1581,7 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/fiddlesticks/build/support",
       "stats": {
-        "win_rate": "49.53%",
+        "win_rate": "49.62%",
         "pick_rate": "0.6%",
         "ban_rate": "1.5%"
       },
@@ -1686,7 +1687,7 @@
       "source_url": "https://u.gg/lol/champions/galio/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": "4.1%",
+        "pick_rate": "4.2%",
         "ban_rate": "1.5%"
       },
       "builds": [
@@ -1721,7 +1722,7 @@
       "source_url": "https://u.gg/lol/champions/gangplank/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": "5.2%",
+        "pick_rate": "5.3%",
         "ban_rate": "5.3%"
       },
       "builds": [
@@ -1756,7 +1757,7 @@
       "source_url": "https://u.gg/lol/champions/garen/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": "7.6%",
+        "pick_rate": "7.7%",
         "ban_rate": "6.5%"
       },
       "builds": [
@@ -1791,7 +1792,7 @@
       "source_url": "https://u.gg/lol/champions/gnar/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": "3.7%",
+        "pick_rate": "3.6%",
         "ban_rate": "1.2%"
       },
       "builds": [
@@ -1827,7 +1828,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "2.6%",
-        "ban_rate": "0.7%"
+        "ban_rate": "0.8%"
       },
       "builds": [
         {
@@ -1862,7 +1863,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "0.7%",
-        "ban_rate": "0.7%"
+        "ban_rate": "0.8%"
       },
       "builds": [
         {
@@ -1930,7 +1931,7 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/gwen/build/top",
       "stats": {
-        "win_rate": "48.89%",
+        "win_rate": "48.94%",
         "pick_rate": "2%",
         "ban_rate": "2.9%"
       },
@@ -1965,7 +1966,7 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/gwen/build/jungle",
       "stats": {
-        "win_rate": "48.55%",
+        "win_rate": "48.63%",
         "pick_rate": "0.6%",
         "ban_rate": "2.9%"
       },
@@ -2068,7 +2069,7 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/hwei/build/mid",
       "stats": {
-        "win_rate": "49.34%",
+        "win_rate": "49.38%",
         "pick_rate": "3.6%",
         "ban_rate": "1.7%"
       },
@@ -2174,7 +2175,7 @@
       "source_url": "https://u.gg/lol/champions/irelia/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": "2.5%",
+        "pick_rate": "2.6%",
         "ban_rate": "13.7%"
       },
       "builds": [
@@ -2454,7 +2455,7 @@
       "source_url": "https://u.gg/lol/champions/jhin/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": "15.2%",
+        "pick_rate": "15.3%",
         "ban_rate": "1.3%"
       },
       "builds": [
@@ -2694,7 +2695,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "7.6%",
-        "ban_rate": "12%"
+        "ban_rate": "12.1%"
       },
       "builds": [
         {
@@ -2799,7 +2800,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "1.6%",
-        "ban_rate": "1.1%"
+        "ban_rate": "1.2%"
       },
       "builds": [
         {
@@ -2834,7 +2835,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "5.9%",
-        "ban_rate": "3.8%"
+        "ban_rate": "3.7%"
       },
       "builds": [
         {
@@ -2869,7 +2870,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "2.4%",
-        "ban_rate": "1.8%"
+        "ban_rate": "1.7%"
       },
       "builds": [
         {
@@ -2911,8 +2912,8 @@
           "name": "U.GG自動取得ビルド",
           "items": [
             "タイタン ハイドラ",
-            "心の鋼",
-            "プロフェイン ハイドラ"
+            "プロフェイン ハイドラ",
+            "心の鋼"
           ],
           "runes": [
             "征服者",
@@ -2970,8 +2971,8 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/ksante/build/top",
       "stats": {
-        "win_rate": "48.88%",
-        "pick_rate": "4.8%",
+        "win_rate": "48.85%",
+        "pick_rate": "4.9%",
         "ban_rate": "3.1%"
       },
       "builds": [
@@ -3042,7 +3043,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "14.5%",
-        "ban_rate": "19.2%"
+        "ban_rate": "19.3%"
       },
       "builds": [
         {
@@ -3146,7 +3147,7 @@
       "source_url": "https://u.gg/lol/champions/lissandra/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": "4.7%",
+        "pick_rate": "4.8%",
         "ban_rate": "3.2%"
       },
       "builds": [
@@ -3493,7 +3494,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "6.6%",
-        "ban_rate": "16.2%"
+        "ban_rate": "16.3%"
       },
       "builds": [
         {
@@ -3526,9 +3527,9 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/mel/build/mid",
       "stats": {
-        "win_rate": "45.46%",
+        "win_rate": "45.49%",
         "pick_rate": "3.1%",
-        "ban_rate": "22.6%"
+        "ban_rate": "22.7%"
       },
       "builds": [
         {
@@ -3631,9 +3632,9 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/wukong/build/top",
       "stats": {
-        "win_rate": "51.34%",
+        "win_rate": "51.22%",
         "pick_rate": "1.1%",
-        "ban_rate": "1.3%"
+        "ban_rate": "1.4%"
       },
       "builds": [
         {
@@ -3667,8 +3668,8 @@
       "source_url": "https://u.gg/lol/champions/wukong/build/jungle",
       "stats": {
         "win_rate": "51.23%",
-        "pick_rate": "4.4%",
-        "ban_rate": "1.3%"
+        "pick_rate": "4.5%",
+        "ban_rate": "1.4%"
       },
       "builds": [
         {
@@ -3744,9 +3745,11 @@
         {
           "name": "U.GG自動取得ビルド",
           "items": [
-            "リーライ クリスタル セプター",
-            "ライアンドリーの仮面",
-            "黄昏と暁"
+            "赤月の刃",
+            "ブラック クリーバー",
+            "サンダード スカイ",
+            "デス ダンス",
+            "ガーディアン エンジェル"
           ],
           "runes": [
             "征服者",
@@ -3771,7 +3774,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "0.3%",
-        "ban_rate": "14.7%"
+        "ban_rate": "14.8%"
       },
       "builds": [
         {
@@ -3805,8 +3808,8 @@
       "source_url": "https://u.gg/lol/champions/morgana/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": "4%",
-        "ban_rate": "14.7%"
+        "pick_rate": "4.1%",
+        "ban_rate": "14.8%"
       },
       "builds": [
         {
@@ -3839,7 +3842,7 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/naafiri/build/jungle",
       "stats": {
-        "win_rate": "50.28%",
+        "win_rate": "50.24%",
         "pick_rate": "5.8%",
         "ban_rate": "32.4%"
       },
@@ -3910,7 +3913,7 @@
       "source_url": "https://u.gg/lol/champions/nami/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": "10.2%",
+        "pick_rate": "10.1%",
         "ban_rate": "2.3%"
       },
       "builds": [
@@ -3943,7 +3946,7 @@
       "source_url": "https://u.gg/lol/champions/nasus/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": "3%",
+        "pick_rate": "2.9%",
         "ban_rate": "3.4%"
       },
       "builds": [
@@ -4115,7 +4118,7 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/nilah/build/adc",
       "stats": {
-        "win_rate": "51.53%",
+        "win_rate": "51.79%",
         "pick_rate": "1.2%",
         "ban_rate": "2.2%"
       },
@@ -4502,7 +4505,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "1.2%",
-        "ban_rate": "2.6%"
+        "ban_rate": "2.7%"
       },
       "builds": [
         {
@@ -4536,8 +4539,8 @@
       "source_url": "https://u.gg/lol/champions/poppy/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": "0.4%",
-        "ban_rate": "2.6%"
+        "pick_rate": "0.5%",
+        "ban_rate": "2.7%"
       },
       "builds": [
         {
@@ -4572,7 +4575,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "1.7%",
-        "ban_rate": "2.6%"
+        "ban_rate": "2.7%"
       },
       "builds": [
         {
@@ -4607,7 +4610,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "6.6%",
-        "ban_rate": "26.6%"
+        "ban_rate": "26.5%"
       },
       "builds": [
         {
@@ -4718,11 +4721,9 @@
         {
           "name": "U.GG自動取得ビルド",
           "items": [
-            "サンダード スカイ",
-            "ブラック クリーバー",
-            "ステラックの篭手",
-            "デス ダンス",
-            "スピリット ビサージュ"
+            "プロフェイン ハイドラ",
+            "クラーケン スレイヤー",
+            "ストームレイザー"
           ],
           "runes": [
             "征服者",
@@ -4746,7 +4747,7 @@
       "source_url": "https://u.gg/lol/champions/rakan/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": "3.9%",
+        "pick_rate": "3.8%",
         "ban_rate": "0.3%"
       },
       "builds": [
@@ -4850,7 +4851,7 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/rell/build/support",
       "stats": {
-        "win_rate": "51.65%",
+        "win_rate": "51.7%",
         "pick_rate": "4.1%",
         "ban_rate": "1.3%"
       },
@@ -4885,8 +4886,8 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/renata/build/support",
       "stats": {
-        "win_rate": "49.57%",
-        "pick_rate": "1.2%",
+        "win_rate": "49.66%",
+        "pick_rate": "1.1%",
         "ban_rate": "0.1%"
       },
       "builds": [
@@ -4992,7 +4993,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "3.3%",
-        "ban_rate": "2.9%"
+        "ban_rate": "3%"
       },
       "builds": [
         {
@@ -5095,9 +5096,9 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/samira/build/adc",
       "stats": {
-        "win_rate": "50.26%",
+        "win_rate": "50.2%",
         "pick_rate": "4.9%",
-        "ban_rate": "6%"
+        "ban_rate": "5.9%"
       },
       "builds": [
         {
@@ -5165,9 +5166,9 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/senna/build/adc",
       "stats": {
-        "win_rate": "52.61%",
-        "pick_rate": "6.8%",
-        "ban_rate": "5.4%"
+        "win_rate": "52.64%",
+        "pick_rate": "7%",
+        "ban_rate": "5.6%"
       },
       "builds": [
         {
@@ -5202,7 +5203,7 @@
       "stats": {
         "win_rate": "51.67%",
         "pick_rate": "7.6%",
-        "ban_rate": "5.4%"
+        "ban_rate": "5.6%"
       },
       "builds": [
         {
@@ -5235,9 +5236,9 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/seraphine/build/support",
       "stats": {
-        "win_rate": "51.46%",
+        "win_rate": "51.4%",
         "pick_rate": "10.9%",
-        "ban_rate": "7.3%"
+        "ban_rate": "7.4%"
       },
       "builds": [
         {
@@ -5270,9 +5271,9 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/sett/build/top",
       "stats": {
-        "win_rate": "50.22%",
-        "pick_rate": "4.7%",
-        "ban_rate": "2.3%"
+        "win_rate": "50.33%",
+        "pick_rate": "4.8%",
+        "ban_rate": "2.2%"
       },
       "builds": [
         {
@@ -5315,7 +5316,8 @@
           "items": [
             "黒炎のトーチ",
             "アンブラル グレイブ",
-            "妖夢の霊剣"
+            "妖夢の霊剣",
+            "ボルテイク サイクロソード"
           ],
           "runes": [
             "征服者",
@@ -5410,7 +5412,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "4.2%",
-        "ban_rate": "6.5%"
+        "ban_rate": "6.4%"
       },
       "builds": [
         {
@@ -5579,9 +5581,9 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/smolder/build/adc",
       "stats": {
-        "win_rate": "49.61%",
-        "pick_rate": "9.7%",
-        "ban_rate": "28.3%"
+        "win_rate": "49.64%",
+        "pick_rate": "9.5%",
+        "ban_rate": "27.2%"
       },
       "builds": [
         {
@@ -5684,7 +5686,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "2.3%",
-        "ban_rate": "1.8%"
+        "ban_rate": "1.9%"
       },
       "builds": [
         {
@@ -5929,7 +5931,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "5.5%",
-        "ban_rate": "11%"
+        "ban_rate": "10.9%"
       },
       "builds": [
         {
@@ -5964,7 +5966,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "2.3%",
-        "ban_rate": "11%"
+        "ban_rate": "10.9%"
       },
       "builds": [
         {
@@ -6353,7 +6355,7 @@
           "name": "U.GG自動取得ビルド",
           "items": [
             "ライアンドリーの仮面",
-            "ラヴァナス ハイドラ",
+            "ショウジンの矛",
             "マリグナンス"
           ],
           "runes": [
@@ -6387,6 +6389,7 @@
           "items": [
             "ショウジンの矛",
             "ライアンドリーの仮面",
+            "ヘクステック ロケットベルト",
             "妖夢の霊剣"
           ],
           "runes": [
@@ -6486,9 +6489,11 @@
         {
           "name": "U.GG自動取得ビルド",
           "items": [
-            "実験的ヘクスプレート",
-            "ルインドキング ブレード",
-            "エッセンス リーバー"
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手",
+            "デス ダンス",
+            "スピリット ビサージュ"
           ],
           "runes": [
             "征服者",
@@ -6583,7 +6588,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "1.5%",
-        "ban_rate": "1.4%"
+        "ban_rate": "1.5%"
       },
       "builds": [
         {
@@ -6618,7 +6623,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "3.5%",
-        "ban_rate": "1.4%"
+        "ban_rate": "1.5%"
       },
       "builds": [
         {
@@ -6651,7 +6656,7 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/vex/build/mid",
       "stats": {
-        "win_rate": "51.23%",
+        "win_rate": "51.12%",
         "pick_rate": "2.5%",
         "ban_rate": "2.9%"
       },
@@ -6719,8 +6724,8 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/viego/build/jungle",
       "stats": {
-        "win_rate": "49.24%",
-        "pick_rate": "9.1%",
+        "win_rate": "49.3%",
+        "pick_rate": "9.2%",
         "ban_rate": "7.5%"
       },
       "builds": [
@@ -6755,8 +6760,8 @@
       "source_url": "https://u.gg/lol/champions/viktor/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": "9.8%",
-        "ban_rate": "9.2%"
+        "pick_rate": "9.9%",
+        "ban_rate": "9.3%"
       },
       "builds": [
         {
@@ -6859,7 +6864,7 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/volibear/build/top",
       "stats": {
-        "win_rate": "49.02%",
+        "win_rate": "48.97%",
         "pick_rate": "2.7%",
         "ban_rate": "1.6%"
       },
@@ -6894,7 +6899,7 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/volibear/build/jungle",
       "stats": {
-        "win_rate": "49.89%",
+        "win_rate": "49.9%",
         "pick_rate": "1%",
         "ban_rate": "1.6%"
       },
@@ -6965,7 +6970,7 @@
       "source_url": "https://u.gg/lol/champions/warwick/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": "2.9%",
+        "pick_rate": "3%",
         "ban_rate": "1.7%"
       },
       "builds": [
@@ -6973,7 +6978,8 @@
           "name": "U.GG自動取得ビルド",
           "items": [
             "ストライドブレイカー",
-            "タイタン ハイドラ",
+            "ルインドキング ブレード",
+            "クラーケン スレイヤー",
             "スタティック シヴ"
           ],
           "runes": [
@@ -7033,8 +7039,8 @@
       "source_url": "https://u.gg/lol/champions/xerath/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": "5.5%",
-        "ban_rate": "8%"
+        "pick_rate": "5.6%",
+        "ban_rate": "8.1%"
       },
       "builds": [
         {
@@ -7069,7 +7075,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "3%",
-        "ban_rate": "8%"
+        "ban_rate": "8.1%"
       },
       "builds": [
         {
@@ -7137,7 +7143,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "3%",
-        "ban_rate": "17.1%"
+        "ban_rate": "17%"
       },
       "builds": [
         {
@@ -7172,7 +7178,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "7.1%",
-        "ban_rate": "17.1%"
+        "ban_rate": "17%"
       },
       "builds": [
         {
@@ -7207,7 +7213,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "1.2%",
-        "ban_rate": "17.1%"
+        "ban_rate": "17%"
       },
       "builds": [
         {
@@ -7240,8 +7246,8 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/yone/build/top",
       "stats": {
-        "win_rate": "50%",
-        "pick_rate": "6.2%",
+        "win_rate": "49.89%",
+        "pick_rate": "6.3%",
         "ban_rate": "5.4%"
       },
       "builds": [
@@ -7275,8 +7281,8 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/yone/build/mid",
       "stats": {
-        "win_rate": "48.65%",
-        "pick_rate": "5.4%",
+        "win_rate": "48.56%",
+        "pick_rate": "5.5%",
         "ban_rate": "5.4%"
       },
       "builds": [
@@ -7343,7 +7349,7 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/yunara/build/adc",
       "stats": {
-        "win_rate": "48.21%",
+        "win_rate": "48.06%",
         "pick_rate": "4.9%",
         "ban_rate": "1.3%"
       },
@@ -7413,7 +7419,7 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/zaahen/build/mid",
       "stats": {
-        "win_rate": "49.35%",
+        "win_rate": "48.76%",
         "pick_rate": "0.1%",
         "ban_rate": "2%"
       },
@@ -7588,8 +7594,8 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/zeri/build/adc",
       "stats": {
-        "win_rate": "50.75%",
-        "pick_rate": "4.4%",
+        "win_rate": "50.81%",
+        "pick_rate": "4.3%",
         "ban_rate": "0.5%"
       },
       "builds": [
@@ -7730,7 +7736,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "3.1%",
-        "ban_rate": "5.2%"
+        "ban_rate": "5.3%"
       },
       "builds": [
         {
