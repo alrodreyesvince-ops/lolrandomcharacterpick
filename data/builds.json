@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-06-09T00:51:50.622064+00:00",
+  "updated_at": "2026-06-10T12:00:20.789484+00:00",
   "source": "ugg-playwright-main-lanes-v1",
-  "ddragon_version": "16.11.1",
+  "ddragon_version": "16.12.1",
   "total_entries": 225,
   "note": "PlaywrightでU.GGを実ブラウザ表示し、表示後の画像alt/aria/textから統計・アイテム・ルーン・スペル・スキル順を抽出。取得失敗時はフォールバックビルド。",
   "champions": [
@@ -14,7 +14,7 @@
       "source_url": "https://u.gg/lol/champions/aatrox/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": "5.7%",
+        "pick_rate": "5.6%",
         "ban_rate": "7.8%"
       },
       "builds": [
