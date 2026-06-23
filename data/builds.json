@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-22T01:18:16.271296+00:00",
+  "updated_at": "2026-06-23T00:53:56.343812+00:00",
   "source": "ugg-playwright-main-lanes-v1",
   "ddragon_version": "16.12.1",
   "total_entries": 225,
@@ -14,7 +14,7 @@
       "source_url": "https://u.gg/lol/champions/aatrox/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": "6.6%",
+        "pick_rate": "6.5%",
         "ban_rate": "8.6%"
       },
       "builds": [
