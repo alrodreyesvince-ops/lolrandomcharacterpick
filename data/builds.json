@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-06-23T00:53:56.343812+00:00",
+  "updated_at": "2026-06-24T00:36:01.495690+00:00",
   "source": "ugg-playwright-main-lanes-v1",
-  "ddragon_version": "16.12.1",
-  "total_entries": 225,
+  "ddragon_version": "16.13.1",
+  "total_entries": 226,
   "note": "PlaywrightでU.GGを実ブラウザ表示し、表示後の画像alt/aria/textから統計・アイテム・ルーン・スペル・スキル順を抽出。取得失敗時はフォールバックビルド。",
   "champions": [
     {
@@ -3162,6 +3162,41 @@
       "lane": "MID",
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/lissandra/build/mid",
+      "stats": {
+        "win_rate": null,
+        "pick_rate": null,
+        "ban_rate": null
+      },
+      "builds": [
+        {
+          "name": "フォールバックビルド",
+          "items": [
+            "ルーデン コンパニオン",
+            "シャドウフレイム",
+            "ゾーニャの砂時計",
+            "ラバドン デスキャップ",
+            "ヴォイド スタッフ"
+          ],
+          "runes": [
+            "電撃",
+            "血の味わい",
+            "目玉コレクター"
+          ],
+          "skills": "主力ダメージスキル優先",
+          "spells": [
+            "フラッシュ",
+            "イグナイト"
+          ]
+        }
+      ]
+    },
+    {
+      "name_ja": "ロック",
+      "name_en": "Locke",
+      "champion_id": "Locke",
+      "lane": "MID",
+      "tier": "normal",
+      "source_url": "https://u.gg/lol/champions/locke/build/mid",
       "stats": {
         "win_rate": null,
         "pick_rate": null,
