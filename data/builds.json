@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-09T22:23:11.708046+00:00",
+  "updated_at": "2026-07-10T22:06:36.216221+00:00",
   "source": "ugg-playwright-main-lanes-v1",
   "ddragon_version": "16.13.1",
   "total_entries": 226,
@@ -15,7 +15,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "6.4%",
-        "ban_rate": "8.2%"
+        "ban_rate": "8.1%"
       },
       "builds": [
         {
