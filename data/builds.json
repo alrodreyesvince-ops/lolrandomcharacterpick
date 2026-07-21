@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T22:11:55.618834+00:00",
+  "updated_at": "2026-07-21T22:11:38.790515+00:00",
   "source": "ugg-playwright-main-lanes-v1",
   "ddragon_version": "16.14.1",
   "total_entries": 226,
@@ -14,15 +14,15 @@
       "source_url": "https://u.gg/lol/champions/aatrox/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": "6.6%",
+        "pick_rate": "6.5%",
         "ban_rate": "8%"
       },
       "builds": [
         {
           "name": "U.GG自動取得ビルド",
           "items": [
-            "サンダード スカイ",
             "ショウジンの矛",
+            "サンダード スカイ",
             "ヒュブリス"
           ],
           "runes": [
