@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-27T22:12:16.135202+00:00",
+  "updated_at": "2026-08-11T21:47:57.607174+00:00",
   "source": "ugg-playwright-main-lanes-v1",
-  "ddragon_version": "16.14.1",
+  "ddragon_version": "16.16.1",
   "total_entries": 226,
   "note": "PlaywrightでU.GGを実ブラウザ表示し、表示後の画像alt/aria/textから統計・アイテム・ルーン・スペル・スキル順を抽出。取得失敗時はフォールバックビルド。",
   "champions": [
@@ -14,16 +14,18 @@
       "source_url": "https://u.gg/lol/champions/aatrox/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": "6.5%",
+        "pick_rate": "6.8%",
         "ban_rate": "7.8%"
       },
       "builds": [
         {
           "name": "U.GG自動取得ビルド",
           "items": [
-            "ショウジンの矛",
-            "心の鋼",
-            "ヒュブリス"
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手",
+            "デス ダンス",
+            "スピリット ビサージュ"
           ],
           "runes": [
             "征服者",
