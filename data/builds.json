@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T21:28:10.670396+00:00",
+  "updated_at": "2026-08-18T21:25:30.401265+00:00",
   "source": "ugg-playwright-main-lanes-v1",
   "ddragon_version": "16.16.1",
   "total_entries": 226,
@@ -14,16 +14,18 @@
       "source_url": "https://u.gg/lol/champions/aatrox/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": "6.8%",
-        "ban_rate": "8%"
+        "pick_rate": "6.7%",
+        "ban_rate": "7.9%"
       },
       "builds": [
         {
           "name": "U.GG自動取得ビルド",
           "items": [
-            "赤月の刃",
-            "ショウジンの矛",
-            "ヒュブリス"
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手",
+            "デス ダンス",
+            "スピリット ビサージュ"
           ],
           "runes": [
             "征服者",
