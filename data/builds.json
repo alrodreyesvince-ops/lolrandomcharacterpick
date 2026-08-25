@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-24T21:31:28.656905+00:00",
+  "updated_at": "2026-08-25T21:30:15.623768+00:00",
   "source": "ugg-playwright-main-lanes-v1",
-  "ddragon_version": "16.16.1",
+  "ddragon_version": "16.17.1",
   "total_entries": 226,
   "note": "PlaywrightでU.GGを実ブラウザ表示し、表示後の画像alt/aria/textから統計・アイテム・ルーン・スペル・スキル順を抽出。取得失敗時はフォールバックビルド。",
   "champions": [
@@ -14,8 +14,8 @@
       "source_url": "https://u.gg/lol/champions/aatrox/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": "6.6%",
-        "ban_rate": "7.9%"
+        "pick_rate": "6.5%",
+        "ban_rate": "7.8%"
       },
       "builds": [
         {
@@ -23,7 +23,7 @@
           "items": [
             "赤月の刃",
             "サンダード スカイ",
-            "ヒュブリス"
+            "ボルテイク サイクロソード"
           ],
           "runes": [
             "征服者",
@@ -7497,9 +7497,9 @@
       "name_ja": "ザーヘン",
       "name_en": "Zaahen",
       "champion_id": "Zaahen",
-      "lane": "MID",
+      "lane": "TOP",
       "tier": "normal",
-      "source_url": "https://u.gg/lol/champions/zaahen/build/mid",
+      "source_url": "https://u.gg/lol/champions/zaahen/build/top",
       "stats": {
         "win_rate": null,
         "pick_rate": null,
@@ -7509,21 +7509,21 @@
         {
           "name": "フォールバックビルド",
           "items": [
-            "ルーデン コンパニオン",
-            "シャドウフレイム",
-            "ゾーニャの砂時計",
-            "ラバドン デスキャップ",
-            "ヴォイド スタッフ"
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手",
+            "デス ダンス",
+            "スピリット ビサージュ"
           ],
           "runes": [
-            "電撃",
-            "血の味わい",
-            "目玉コレクター"
+            "征服者",
+            "凱旋",
+            "背水の陣"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "主力スキル優先",
           "spells": [
             "フラッシュ",
-            "イグナイト"
+            "テレポート"
           ]
         }
       ]
