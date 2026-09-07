@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-06T22:58:10.781968+00:00",
+  "updated_at": "2026-09-07T23:36:33.727727+00:00",
   "source": "ugg-playwright-main-lanes-v1",
   "ddragon_version": "16.17.1",
   "total_entries": 226,
@@ -14,23 +14,25 @@
       "source_url": "https://u.gg/lol/champions/aatrox/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": "6%",
-        "ban_rate": "7.3%"
+        "pick_rate": null,
+        "ban_rate": null
       },
       "builds": [
         {
-          "name": "U.GG自動取得ビルド",
+          "name": "フォールバックビルド",
           "items": [
-            "赤月の刃",
-            "ショウジンの矛",
-            "ボルテイク サイクロソード"
+            "サンダード スカイ",
+            "ブラック クリーバー",
+            "ステラックの篭手",
+            "デス ダンス",
+            "スピリット ビサージュ"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "背水の陣"
           ],
-          "skills": "Q → W → E",
+          "skills": "主力スキル優先",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -47,12 +49,12 @@
       "source_url": "https://u.gg/lol/champions/ahri/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "9.4%",
+        "ban_rate": "3.1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -65,7 +67,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
