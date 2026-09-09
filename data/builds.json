@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-08T23:25:20.406755+00:00",
+  "updated_at": "2026-09-09T23:19:21.160161+00:00",
   "source": "ugg-playwright-main-lanes-v1",
-  "ddragon_version": "16.17.1",
+  "ddragon_version": "16.18.1",
   "total_entries": 226,
   "note": "PlaywrightでU.GGを実ブラウザ表示し、表示後の画像alt/aria/textから統計・アイテム・ルーン・スペル・スキル順を抽出。取得失敗時はフォールバックビルド。",
   "champions": [
@@ -14,12 +14,12 @@
       "source_url": "https://u.gg/lol/champions/aatrox/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.9%",
+        "ban_rate": "7.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -32,7 +32,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -49,12 +49,12 @@
       "source_url": "https://u.gg/lol/champions/ahri/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": "9.4%",
-        "ban_rate": "3.1%"
+        "pick_rate": null,
+        "ban_rate": null
       },
       "builds": [
         {
-          "name": "U.GG自動取得ビルド",
+          "name": "フォールバックビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -67,7 +67,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "Q → W → E",
+          "skills": "主力ダメージスキル優先",
           "spells": [
             "フラッシュ",
             "イグナイト"
