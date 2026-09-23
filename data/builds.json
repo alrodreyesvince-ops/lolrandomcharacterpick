@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-22T23:46:52.317962+00:00",
+  "updated_at": "2026-09-23T23:46:52.370955+00:00",
   "source": "ugg-playwright-main-lanes-v1",
-  "ddragon_version": "16.18.1",
+  "ddragon_version": "16.19.1",
   "total_entries": 226,
   "note": "PlaywrightでU.GGを実ブラウザ表示し、表示後の画像alt/aria/textから統計・アイテム・ルーン・スペル・スキル順を抽出。取得失敗時はフォールバックビルド。",
   "champions": [
@@ -49,8 +49,8 @@
       "source_url": "https://u.gg/lol/champions/ahri/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": "9.2%",
-        "ban_rate": "3.1%"
+        "pick_rate": "8.6%",
+        "ban_rate": "2.5%"
       },
       "builds": [
         {
