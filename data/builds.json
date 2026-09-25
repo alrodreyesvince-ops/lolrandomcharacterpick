@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T23:46:52.370955+00:00",
+  "updated_at": "2026-09-25T00:03:26.132079+00:00",
   "source": "ugg-playwright-main-lanes-v1",
   "ddragon_version": "16.19.1",
   "total_entries": 226,
@@ -49,8 +49,8 @@
       "source_url": "https://u.gg/lol/champions/ahri/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": "8.6%",
-        "ban_rate": "2.5%"
+        "pick_rate": "8.9%",
+        "ban_rate": "2.7%"
       },
       "builds": [
         {
