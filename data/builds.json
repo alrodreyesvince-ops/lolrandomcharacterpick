@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T00:30:22.977665+00:00",
+  "updated_at": "2026-10-01T00:32:23.354511+00:00",
   "source": "ugg-playwright-main-lanes-v1",
   "ddragon_version": "16.19.1",
   "total_entries": 226,
@@ -15,7 +15,7 @@
       "stats": {
         "win_rate": null,
         "pick_rate": "6.6%",
-        "ban_rate": "7.9%"
+        "ban_rate": "7.8%"
       },
       "builds": [
         {
@@ -49,12 +49,12 @@
       "source_url": "https://u.gg/lol/champions/ahri/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "9%",
+        "ban_rate": "2.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -67,7 +67,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -84,12 +84,12 @@
       "source_url": "https://u.gg/lol/champions/akali/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.7%",
+        "ban_rate": "16.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -102,7 +102,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -119,12 +119,12 @@
       "source_url": "https://u.gg/lol/champions/akali/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.5%",
+        "ban_rate": "16.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -137,7 +137,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -153,26 +153,24 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/akshan/build/mid",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "49.94%",
+        "pick_rate": "2.1%",
+        "ban_rate": "2.1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "ルーデン コンパニオン",
-            "シャドウフレイム",
-            "ゾーニャの砂時計",
-            "ラバドン デスキャップ",
-            "ヴォイド スタッフ"
+            "コレクター",
+            "ヒュブリス",
+            "クラーケン スレイヤー"
           ],
           "runes": [
             "電撃",
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -189,12 +187,12 @@
       "source_url": "https://u.gg/lol/champions/alistar/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5%",
+        "ban_rate": "1.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -207,7 +205,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -223,13 +221,13 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/ambessa/build/top",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "49.63%",
+        "pick_rate": "3.9%",
+        "ban_rate": "5.1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -242,7 +240,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -258,13 +256,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/ambessa/build/mid",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "50.98%",
+        "pick_rate": "0.3%",
+        "ban_rate": "5.1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -277,7 +275,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -294,12 +292,12 @@
       "source_url": "https://u.gg/lol/champions/amumu/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.9%",
+        "ban_rate": "0.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -312,7 +310,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -329,12 +327,12 @@
       "source_url": "https://u.gg/lol/champions/amumu/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.6%",
+        "ban_rate": "0.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -347,7 +345,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -364,12 +362,12 @@
       "source_url": "https://u.gg/lol/champions/anivia/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.3%",
+        "ban_rate": "2.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -382,7 +380,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -399,12 +397,12 @@
       "source_url": "https://u.gg/lol/champions/annie/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.9%",
+        "ban_rate": "0.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -417,7 +415,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -434,12 +432,12 @@
       "source_url": "https://u.gg/lol/champions/annie/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.3%",
+        "ban_rate": "0.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -452,7 +450,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -468,13 +466,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/aphelios/build/adc",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "49.24%",
+        "pick_rate": "8.8%",
+        "ban_rate": "4.1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -487,7 +485,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -504,12 +502,12 @@
       "source_url": "https://u.gg/lol/champions/ashe/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "6.6%",
+        "ban_rate": "1.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -522,7 +520,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -539,12 +537,12 @@
       "source_url": "https://u.gg/lol/champions/ashe/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.7%",
+        "ban_rate": "1.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -557,7 +555,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -574,12 +572,12 @@
       "source_url": "https://u.gg/lol/champions/aurelionsol/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.8%",
+        "ban_rate": "0.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -592,7 +590,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -608,13 +606,13 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/aurora/build/mid",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "51.13%",
+        "pick_rate": "2.9%",
+        "ban_rate": "1.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -627,7 +625,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -644,12 +642,12 @@
       "source_url": "https://u.gg/lol/champions/azir/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.8%",
+        "ban_rate": "0.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -662,7 +660,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -679,12 +677,12 @@
       "source_url": "https://u.gg/lol/champions/bard/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.8%",
+        "ban_rate": "2.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -697,7 +695,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -713,13 +711,13 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/belveth/build/jungle",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "50.68%",
+        "pick_rate": "2.7%",
+        "ban_rate": "4.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -732,7 +730,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -749,12 +747,12 @@
       "source_url": "https://u.gg/lol/champions/blitzcrank/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "7%",
+        "ban_rate": "13.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -767,7 +765,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -784,12 +782,12 @@
       "source_url": "https://u.gg/lol/champions/brand/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.2%",
+        "ban_rate": "2.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -802,7 +800,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -819,12 +817,12 @@
       "source_url": "https://u.gg/lol/champions/brand/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.6%",
+        "ban_rate": "2.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -837,7 +835,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -854,12 +852,12 @@
       "source_url": "https://u.gg/lol/champions/brand/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.3%",
+        "ban_rate": "2.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -872,7 +870,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -889,12 +887,12 @@
       "source_url": "https://u.gg/lol/champions/braum/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.6%",
+        "ban_rate": "6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -907,7 +905,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -923,26 +921,24 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/briar/build/jungle",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "51.02%",
+        "pick_rate": "4.3%",
+        "ban_rate": "8.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "赤月の刃",
-            "ブラック クリーバー",
-            "サンダード スカイ",
-            "デス ダンス",
-            "ガーディアン エンジェル"
+            "コレクター",
+            "タイタン ハイドラ",
+            "ボルテイク サイクロソード"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -959,12 +955,12 @@
       "source_url": "https://u.gg/lol/champions/caitlyn/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "15%",
+        "ban_rate": "21.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -977,7 +973,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -994,12 +990,12 @@
       "source_url": "https://u.gg/lol/champions/camille/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.4%",
+        "ban_rate": "3.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -1012,7 +1008,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -1029,12 +1025,12 @@
       "source_url": "https://u.gg/lol/champions/camille/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.8%",
+        "ban_rate": "3.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -1047,7 +1043,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -1064,12 +1060,12 @@
       "source_url": "https://u.gg/lol/champions/cassiopeia/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.3%",
+        "ban_rate": "1.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -1082,7 +1078,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -1099,12 +1095,12 @@
       "source_url": "https://u.gg/lol/champions/chogath/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.3%",
+        "ban_rate": "5.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -1117,7 +1113,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -1134,12 +1130,12 @@
       "source_url": "https://u.gg/lol/champions/corki/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.3%",
+        "ban_rate": "0.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -1152,7 +1148,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -1169,12 +1165,12 @@
       "source_url": "https://u.gg/lol/champions/darius/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "6.3%",
+        "ban_rate": "12.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -1187,7 +1183,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -1204,12 +1200,12 @@
       "source_url": "https://u.gg/lol/champions/diana/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.7%",
+        "ban_rate": "2.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -1222,7 +1218,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -1239,12 +1235,12 @@
       "source_url": "https://u.gg/lol/champions/diana/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.9%",
+        "ban_rate": "2.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -1257,7 +1253,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -1274,12 +1270,12 @@
       "source_url": "https://u.gg/lol/champions/draven/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.7%",
+        "ban_rate": "13.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -1292,7 +1288,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -1309,12 +1305,12 @@
       "source_url": "https://u.gg/lol/champions/drmundo/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.2%",
+        "ban_rate": "2.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -1327,7 +1323,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -1344,12 +1340,12 @@
       "source_url": "https://u.gg/lol/champions/drmundo/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.4%",
+        "ban_rate": "2.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -1362,7 +1358,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -1379,12 +1375,12 @@
       "source_url": "https://u.gg/lol/champions/ekko/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.3%",
+        "ban_rate": "2.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -1397,7 +1393,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -1414,12 +1410,12 @@
       "source_url": "https://u.gg/lol/champions/ekko/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.1%",
+        "ban_rate": "2.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -1432,7 +1428,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -1449,12 +1445,12 @@
       "source_url": "https://u.gg/lol/champions/elise/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.3%",
+        "ban_rate": "1.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -1467,7 +1463,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -1484,12 +1480,12 @@
       "source_url": "https://u.gg/lol/champions/evelynn/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.5%",
+        "ban_rate": "2.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -1502,7 +1498,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -1519,25 +1515,23 @@
       "source_url": "https://u.gg/lol/champions/ezreal/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "11.4%",
+        "ban_rate": "4.1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "クラーケン スレイヤー",
-            "ルナーン ハリケーン",
-            "インフィニティ エッジ",
-            "ドミニク リガード",
-            "ガーディアン エンジェル"
+            "トリニティ フォース",
+            "ヘクステック ガンブレード",
+            "エッセンス リーバー"
           ],
           "runes": [
             "リーサルテンポ",
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -1553,13 +1547,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/fiddlesticks/build/jungle",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "51.36%",
+        "pick_rate": "2.2%",
+        "ban_rate": "1.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -1572,7 +1566,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -1588,13 +1582,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/fiddlesticks/build/support",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "49.62%",
+        "pick_rate": "0.5%",
+        "ban_rate": "1.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -1607,7 +1601,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -1624,12 +1618,12 @@
       "source_url": "https://u.gg/lol/champions/fiora/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.7%",
+        "ban_rate": "5.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -1642,7 +1636,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -1659,12 +1653,12 @@
       "source_url": "https://u.gg/lol/champions/fizz/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5%",
+        "ban_rate": "6.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -1677,7 +1671,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -1694,25 +1688,23 @@
       "source_url": "https://u.gg/lol/champions/galio/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.9%",
+        "ban_rate": "1.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "ルーデン コンパニオン",
-            "シャドウフレイム",
-            "ゾーニャの砂時計",
-            "ラバドン デスキャップ",
-            "ヴォイド スタッフ"
+            "ヘクステック ロケットベルト",
+            "ホロウ レディアンス",
+            "ストームサージ"
           ],
           "runes": [
             "電撃",
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -1729,12 +1721,12 @@
       "source_url": "https://u.gg/lol/champions/gangplank/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.4%",
+        "ban_rate": "8.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -1747,7 +1739,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -1764,12 +1756,12 @@
       "source_url": "https://u.gg/lol/champions/garen/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "6.3%",
+        "ban_rate": "4.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -1782,7 +1774,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -1799,12 +1791,12 @@
       "source_url": "https://u.gg/lol/champions/gnar/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.7%",
+        "ban_rate": "1.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -1817,7 +1809,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -1834,12 +1826,12 @@
       "source_url": "https://u.gg/lol/champions/gragas/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.6%",
+        "ban_rate": "0.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -1852,7 +1844,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -1869,12 +1861,12 @@
       "source_url": "https://u.gg/lol/champions/gragas/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.8%",
+        "ban_rate": "0.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -1887,7 +1879,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -1904,12 +1896,12 @@
       "source_url": "https://u.gg/lol/champions/graves/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "8.5%",
+        "ban_rate": "12.1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -1922,7 +1914,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -1938,13 +1930,13 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/gwen/build/top",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "50.75%",
+        "pick_rate": "2.6%",
+        "ban_rate": "3.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -1957,7 +1949,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -1973,13 +1965,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/gwen/build/jungle",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "51.37%",
+        "pick_rate": "0.9%",
+        "ban_rate": "3.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -1992,7 +1984,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -2009,12 +2001,12 @@
       "source_url": "https://u.gg/lol/champions/hecarim/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.5%",
+        "ban_rate": "7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -2027,7 +2019,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -2044,12 +2036,12 @@
       "source_url": "https://u.gg/lol/champions/heimerdinger/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.2%",
+        "ban_rate": "1.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -2062,7 +2054,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -2078,13 +2070,13 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/hwei/build/mid",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "51.02%",
+        "pick_rate": "3.9%",
+        "ban_rate": "2.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -2097,7 +2089,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -2114,12 +2106,12 @@
       "source_url": "https://u.gg/lol/champions/illaoi/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.5%",
+        "ban_rate": "4.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -2132,7 +2124,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -2149,12 +2141,12 @@
       "source_url": "https://u.gg/lol/champions/irelia/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.6%",
+        "ban_rate": "12.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -2167,7 +2159,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -2184,12 +2176,12 @@
       "source_url": "https://u.gg/lol/champions/irelia/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.9%",
+        "ban_rate": "12.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -2202,7 +2194,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -2219,12 +2211,12 @@
       "source_url": "https://u.gg/lol/champions/ivern/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.1%",
+        "ban_rate": "0.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -2237,7 +2229,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -2254,12 +2246,12 @@
       "source_url": "https://u.gg/lol/champions/janna/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "8%",
+        "ban_rate": "1.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -2272,7 +2264,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -2289,25 +2281,23 @@
       "source_url": "https://u.gg/lol/champions/jarvaniv/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.9%",
+        "ban_rate": "1.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "赤月の刃",
-            "ブラック クリーバー",
+            "プロフェイン ハイドラ",
             "サンダード スカイ",
-            "デス ダンス",
-            "ガーディアン エンジェル"
+            "赤月の刃"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -2324,12 +2314,12 @@
       "source_url": "https://u.gg/lol/champions/jax/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.8%",
+        "ban_rate": "10.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -2342,7 +2332,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -2359,12 +2349,12 @@
       "source_url": "https://u.gg/lol/champions/jax/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.9%",
+        "ban_rate": "10.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -2377,7 +2367,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -2394,12 +2384,12 @@
       "source_url": "https://u.gg/lol/champions/jayce/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.5%",
+        "ban_rate": "6.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -2412,7 +2402,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -2429,12 +2419,12 @@
       "source_url": "https://u.gg/lol/champions/jayce/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.8%",
+        "ban_rate": "6.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -2447,7 +2437,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -2464,12 +2454,12 @@
       "source_url": "https://u.gg/lol/champions/jhin/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "16.6%",
+        "ban_rate": "1.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -2482,7 +2472,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -2499,25 +2489,23 @@
       "source_url": "https://u.gg/lol/champions/jinx/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "16.8%",
+        "ban_rate": "8.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
+            "ヘクスオプティックC44",
             "クラーケン スレイヤー",
-            "ルナーン ハリケーン",
-            "インフィニティ エッジ",
-            "ドミニク リガード",
-            "ガーディアン エンジェル"
+            "ヒュブリス"
           ],
           "runes": [
             "リーサルテンポ",
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -2534,25 +2522,23 @@
       "source_url": "https://u.gg/lol/champions/kaisa/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "17.8%",
+        "ban_rate": "3.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
-            "ルナーン ハリケーン",
-            "インフィニティ エッジ",
-            "ドミニク リガード",
-            "ガーディアン エンジェル"
+            "スタティック シヴ",
+            "ヒュブリス"
           ],
           "runes": [
             "リーサルテンポ",
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -2569,12 +2555,12 @@
       "source_url": "https://u.gg/lol/champions/kalista/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.5%",
+        "ban_rate": "1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -2587,7 +2573,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -2604,12 +2590,12 @@
       "source_url": "https://u.gg/lol/champions/karma/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "7.2%",
+        "ban_rate": "3.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -2622,7 +2608,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -2639,12 +2625,12 @@
       "source_url": "https://u.gg/lol/champions/karthus/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.4%",
+        "ban_rate": "0.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -2657,7 +2643,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -2674,12 +2660,12 @@
       "source_url": "https://u.gg/lol/champions/kassadin/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.3%",
+        "ban_rate": "3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -2692,7 +2678,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -2709,12 +2695,12 @@
       "source_url": "https://u.gg/lol/champions/katarina/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "6.8%",
+        "ban_rate": "12%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -2727,7 +2713,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -2744,12 +2730,12 @@
       "source_url": "https://u.gg/lol/champions/kayle/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.4%",
+        "ban_rate": "1.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -2762,7 +2748,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -2779,12 +2765,12 @@
       "source_url": "https://u.gg/lol/champions/kayn/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "6.9%",
+        "ban_rate": "5.1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -2797,7 +2783,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -2814,12 +2800,12 @@
       "source_url": "https://u.gg/lol/champions/kennen/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.9%",
+        "ban_rate": "1.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -2832,7 +2818,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -2849,12 +2835,12 @@
       "source_url": "https://u.gg/lol/champions/khazix/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "8.2%",
+        "ban_rate": "5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -2867,7 +2853,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -2884,12 +2870,12 @@
       "source_url": "https://u.gg/lol/champions/kindred/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2%",
+        "ban_rate": "1.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -2902,7 +2888,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -2919,25 +2905,23 @@
       "source_url": "https://u.gg/lol/champions/kled/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.9%",
+        "ban_rate": "0.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "サンダード スカイ",
-            "ブラック クリーバー",
-            "ステラックの篭手",
-            "デス ダンス",
-            "スピリット ビサージュ"
+            "タイタン ハイドラ",
+            "心の鋼",
+            "プロフェイン ハイドラ"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -2954,12 +2938,12 @@
       "source_url": "https://u.gg/lol/champions/kogmaw/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2%",
+        "ban_rate": "0.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -2972,7 +2956,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -2988,13 +2972,13 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/ksante/build/top",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "47.3%",
+        "pick_rate": "3.9%",
+        "ban_rate": "2.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -3007,7 +2991,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -3024,12 +3008,12 @@
       "source_url": "https://u.gg/lol/champions/leblanc/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.5%",
+        "ban_rate": "17%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -3042,7 +3026,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -3059,12 +3043,12 @@
       "source_url": "https://u.gg/lol/champions/leesin/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "12.9%",
+        "ban_rate": "17.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -3077,7 +3061,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -3094,12 +3078,12 @@
       "source_url": "https://u.gg/lol/champions/leona/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "7.6%",
+        "ban_rate": "8.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -3112,7 +3096,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -3128,13 +3112,13 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/lillia/build/jungle",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "51.24%",
+        "pick_rate": "4%",
+        "ban_rate": "2.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -3147,7 +3131,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -3164,12 +3148,12 @@
       "source_url": "https://u.gg/lol/champions/lissandra/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.5%",
+        "ban_rate": "4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -3182,7 +3166,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -3198,13 +3182,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/locke/build/mid",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "50.3%",
+        "pick_rate": "6.7%",
+        "ban_rate": "30.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -3217,7 +3201,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -3234,12 +3218,12 @@
       "source_url": "https://u.gg/lol/champions/lucian/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "7.5%",
+        "ban_rate": "2.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -3252,7 +3236,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -3269,12 +3253,12 @@
       "source_url": "https://u.gg/lol/champions/lulu/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "13.8%",
+        "ban_rate": "13.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -3287,7 +3271,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -3304,12 +3288,12 @@
       "source_url": "https://u.gg/lol/champions/lux/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4%",
+        "ban_rate": "3.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -3322,7 +3306,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -3339,12 +3323,12 @@
       "source_url": "https://u.gg/lol/champions/lux/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "6.4%",
+        "ban_rate": "3.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -3357,7 +3341,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -3374,12 +3358,12 @@
       "source_url": "https://u.gg/lol/champions/malphite/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "7.1%",
+        "ban_rate": "16.1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -3392,7 +3376,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -3409,12 +3393,12 @@
       "source_url": "https://u.gg/lol/champions/malzahar/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.1%",
+        "ban_rate": "8.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -3427,7 +3411,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -3444,12 +3428,12 @@
       "source_url": "https://u.gg/lol/champions/maokai/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.4%",
+        "ban_rate": "0.1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -3462,7 +3446,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -3479,12 +3463,12 @@
       "source_url": "https://u.gg/lol/champions/maokai/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.5%",
+        "ban_rate": "0.1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -3497,7 +3481,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -3514,12 +3498,12 @@
       "source_url": "https://u.gg/lol/champions/maokai/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.5%",
+        "ban_rate": "0.1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -3532,7 +3516,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -3549,12 +3533,12 @@
       "source_url": "https://u.gg/lol/champions/masteryi/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "6.4%",
+        "ban_rate": "15.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -3567,7 +3551,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -3583,13 +3567,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/mel/build/mid",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "45.39%",
+        "pick_rate": "2.3%",
+        "ban_rate": "12.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -3602,7 +3586,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -3618,13 +3602,13 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/milio/build/support",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "50.34%",
+        "pick_rate": "7%",
+        "ban_rate": "4.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -3637,7 +3621,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -3654,12 +3638,12 @@
       "source_url": "https://u.gg/lol/champions/missfortune/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.3%",
+        "ban_rate": "0.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -3672,7 +3656,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -3688,13 +3672,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/wukong/build/top",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "51.11%",
+        "pick_rate": "1%",
+        "ban_rate": "4.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -3707,7 +3691,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -3723,13 +3707,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/wukong/build/jungle",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "52.16%",
+        "pick_rate": "6.6%",
+        "ban_rate": "4.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -3742,7 +3726,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -3759,12 +3743,12 @@
       "source_url": "https://u.gg/lol/champions/mordekaiser/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.7%",
+        "ban_rate": "7.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -3777,7 +3761,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -3794,12 +3778,12 @@
       "source_url": "https://u.gg/lol/champions/mordekaiser/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.3%",
+        "ban_rate": "7.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -3812,7 +3796,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -3829,12 +3813,12 @@
       "source_url": "https://u.gg/lol/champions/morgana/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.3%",
+        "ban_rate": "16.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -3847,7 +3831,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -3864,12 +3848,12 @@
       "source_url": "https://u.gg/lol/champions/morgana/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.3%",
+        "ban_rate": "16.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -3882,7 +3866,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -3898,13 +3882,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/naafiri/build/jungle",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "49.43%",
+        "pick_rate": "3.3%",
+        "ban_rate": "11.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -3917,7 +3901,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -3933,13 +3917,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/naafiri/build/mid",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "50.16%",
+        "pick_rate": "0.8%",
+        "ban_rate": "11.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -3952,7 +3936,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -3969,12 +3953,12 @@
       "source_url": "https://u.gg/lol/champions/nami/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "9.2%",
+        "ban_rate": "1.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -3987,7 +3971,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -4004,12 +3988,12 @@
       "source_url": "https://u.gg/lol/champions/nasus/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.4%",
+        "ban_rate": "27.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -4022,7 +4006,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -4039,12 +4023,12 @@
       "source_url": "https://u.gg/lol/champions/nautilus/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "9.9%",
+        "ban_rate": "15%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -4057,7 +4041,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -4074,12 +4058,12 @@
       "source_url": "https://u.gg/lol/champions/neeko/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.3%",
+        "ban_rate": "0.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -4092,7 +4076,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -4109,12 +4093,12 @@
       "source_url": "https://u.gg/lol/champions/neeko/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.5%",
+        "ban_rate": "0.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -4127,7 +4111,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -4144,12 +4128,12 @@
       "source_url": "https://u.gg/lol/champions/nidalee/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.1%",
+        "ban_rate": "2.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -4162,7 +4146,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -4178,13 +4162,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/nilah/build/adc",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "51.29%",
+        "pick_rate": "1.1%",
+        "ban_rate": "1.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -4197,7 +4181,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -4214,12 +4198,12 @@
       "source_url": "https://u.gg/lol/champions/nocturne/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.4%",
+        "ban_rate": "11%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -4232,7 +4216,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -4249,25 +4233,23 @@
       "source_url": "https://u.gg/lol/champions/nunu/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.9%",
+        "ban_rate": "0.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "赤月の刃",
-            "ブラック クリーバー",
-            "サンダード スカイ",
-            "デス ダンス",
-            "ガーディアン エンジェル"
+            "ライアンドリーの仮面",
+            "サンファイア イージス",
+            "ヘクステック ロケットベルト"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -4284,12 +4266,12 @@
       "source_url": "https://u.gg/lol/champions/olaf/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.9%",
+        "ban_rate": "3.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -4302,7 +4284,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -4319,12 +4301,12 @@
       "source_url": "https://u.gg/lol/champions/olaf/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.4%",
+        "ban_rate": "3.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -4337,7 +4319,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -4354,12 +4336,12 @@
       "source_url": "https://u.gg/lol/champions/orianna/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.2%",
+        "ban_rate": "0.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -4372,7 +4354,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -4389,12 +4371,12 @@
       "source_url": "https://u.gg/lol/champions/ornn/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.7%",
+        "ban_rate": "0.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -4407,7 +4389,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -4424,12 +4406,12 @@
       "source_url": "https://u.gg/lol/champions/pantheon/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.8%",
+        "ban_rate": "2.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -4442,7 +4424,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -4459,25 +4441,23 @@
       "source_url": "https://u.gg/lol/champions/pantheon/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.7%",
+        "ban_rate": "2.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
-            "ブラック クリーバー",
             "サンダード スカイ",
-            "デス ダンス",
-            "ガーディアン エンジェル"
+            "ヒュブリス"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -4494,12 +4474,12 @@
       "source_url": "https://u.gg/lol/champions/pantheon/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.7%",
+        "ban_rate": "2.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -4512,7 +4492,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -4529,12 +4509,12 @@
       "source_url": "https://u.gg/lol/champions/pantheon/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.2%",
+        "ban_rate": "2.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -4547,7 +4527,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -4564,12 +4544,12 @@
       "source_url": "https://u.gg/lol/champions/poppy/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1%",
+        "ban_rate": "3.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -4582,7 +4562,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -4599,25 +4579,23 @@
       "source_url": "https://u.gg/lol/champions/poppy/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.4%",
+        "ban_rate": "3.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "赤月の刃",
-            "ブラック クリーバー",
             "サンダード スカイ",
-            "デス ダンス",
-            "ガーディアン エンジェル"
+            "赤月の刃",
+            "アンブラル グレイブ"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -4634,12 +4612,12 @@
       "source_url": "https://u.gg/lol/champions/poppy/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.7%",
+        "ban_rate": "3.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -4652,7 +4630,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -4669,12 +4647,12 @@
       "source_url": "https://u.gg/lol/champions/pyke/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.9%",
+        "ban_rate": "25.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -4687,7 +4665,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -4704,12 +4682,12 @@
       "source_url": "https://u.gg/lol/champions/qiyana/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "6.5%",
+        "ban_rate": "10.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -4722,7 +4700,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -4739,12 +4717,12 @@
       "source_url": "https://u.gg/lol/champions/qiyana/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.8%",
+        "ban_rate": "10.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -4757,7 +4735,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -4774,12 +4752,12 @@
       "source_url": "https://u.gg/lol/champions/quinn/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.9%",
+        "ban_rate": "0.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -4792,7 +4770,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -4809,12 +4787,12 @@
       "source_url": "https://u.gg/lol/champions/rakan/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.7%",
+        "ban_rate": "0.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -4827,7 +4805,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -4844,12 +4822,12 @@
       "source_url": "https://u.gg/lol/champions/rammus/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.1%",
+        "ban_rate": "4.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -4862,7 +4840,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -4879,12 +4857,12 @@
       "source_url": "https://u.gg/lol/champions/reksai/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.4%",
+        "ban_rate": "0.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -4897,7 +4875,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -4913,13 +4891,13 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/rell/build/support",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "51.94%",
+        "pick_rate": "3.9%",
+        "ban_rate": "1.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -4932,7 +4910,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -4948,13 +4926,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/renata/build/support",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "50.65%",
+        "pick_rate": "1.7%",
+        "ban_rate": "0.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -4967,7 +4945,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -4984,12 +4962,12 @@
       "source_url": "https://u.gg/lol/champions/renekton/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.5%",
+        "ban_rate": "4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -5002,7 +4980,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -5019,12 +4997,12 @@
       "source_url": "https://u.gg/lol/champions/rengar/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.1%",
+        "ban_rate": "7.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -5037,7 +5015,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -5054,12 +5032,12 @@
       "source_url": "https://u.gg/lol/champions/riven/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.4%",
+        "ban_rate": "1.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -5072,7 +5050,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -5089,12 +5067,12 @@
       "source_url": "https://u.gg/lol/champions/rumble/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.5%",
+        "ban_rate": "0.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -5107,7 +5085,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -5124,12 +5102,12 @@
       "source_url": "https://u.gg/lol/champions/ryze/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.5%",
+        "ban_rate": "0.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -5142,7 +5120,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -5158,13 +5136,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/samira/build/adc",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "49.57%",
+        "pick_rate": "3.8%",
+        "ban_rate": "5.1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -5177,7 +5155,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -5194,12 +5172,12 @@
       "source_url": "https://u.gg/lol/champions/sejuani/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.2%",
+        "ban_rate": "0.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -5212,7 +5190,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -5228,13 +5206,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/senna/build/adc",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "49.9%",
+        "pick_rate": "0.4%",
+        "ban_rate": "1.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -5247,7 +5225,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -5263,13 +5241,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/senna/build/support",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "50.91%",
+        "pick_rate": "5.3%",
+        "ban_rate": "1.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -5282,7 +5260,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -5298,13 +5276,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/seraphine/build/support",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "50.32%",
+        "pick_rate": "6.9%",
+        "ban_rate": "6.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -5317,7 +5295,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -5333,13 +5311,13 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/sett/build/top",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "50.53%",
+        "pick_rate": "5.7%",
+        "ban_rate": "2.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -5352,7 +5330,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -5369,25 +5347,23 @@
       "source_url": "https://u.gg/lol/champions/shaco/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.3%",
+        "ban_rate": "16.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "赤月の刃",
-            "ブラック クリーバー",
-            "サンダード スカイ",
-            "デス ダンス",
-            "ガーディアン エンジェル"
+            "黒炎のトーチ",
+            "妖夢の霊剣",
+            "ボルテイク サイクロソード"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -5404,12 +5380,12 @@
       "source_url": "https://u.gg/lol/champions/shaco/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.2%",
+        "ban_rate": "16.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -5422,7 +5398,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -5439,12 +5415,12 @@
       "source_url": "https://u.gg/lol/champions/shen/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.6%",
+        "ban_rate": "0.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -5457,7 +5433,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -5474,25 +5450,23 @@
       "source_url": "https://u.gg/lol/champions/shyvana/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.7%",
+        "ban_rate": "5.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "赤月の刃",
-            "ブラック クリーバー",
-            "サンダード スカイ",
-            "デス ダンス",
-            "ガーディアン エンジェル"
+            "トリニティ フォース",
+            "黄昏と暁",
+            "クラーケン スレイヤー"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -5509,12 +5483,12 @@
       "source_url": "https://u.gg/lol/champions/singed/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.3%",
+        "ban_rate": "0.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -5527,7 +5501,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -5544,25 +5518,23 @@
       "source_url": "https://u.gg/lol/champions/sion/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.9%",
+        "ban_rate": "0.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "サンダード スカイ",
-            "ブラック クリーバー",
-            "ステラックの篭手",
-            "デス ダンス",
-            "スピリット ビサージュ"
+            "サンファイア イージス",
+            "妖夢の霊剣",
+            "心の鋼"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -5579,12 +5551,12 @@
       "source_url": "https://u.gg/lol/champions/sivir/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.1%",
+        "ban_rate": "1.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -5597,7 +5569,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -5614,12 +5586,12 @@
       "source_url": "https://u.gg/lol/champions/skarner/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.1%",
+        "ban_rate": "0.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -5632,7 +5604,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -5648,13 +5620,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/smolder/build/adc",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "48.84%",
+        "pick_rate": "3.2%",
+        "ban_rate": "1.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -5667,7 +5639,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -5684,12 +5656,12 @@
       "source_url": "https://u.gg/lol/champions/sona/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.6%",
+        "ban_rate": "0.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -5702,7 +5674,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -5719,25 +5691,23 @@
       "source_url": "https://u.gg/lol/champions/soraka/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.1%",
+        "ban_rate": "2.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "ソラリのロケット",
-            "騎士の誓い",
-            "リデンプション",
-            "ミカエルの祝福",
-            "ジーク コンバージェンス"
+            "ドリーム メーカー",
+            "セレスティアル オポジション",
+            "ムーンストーンの再生"
           ],
           "runes": [
             "アフターショック",
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -5754,12 +5724,12 @@
       "source_url": "https://u.gg/lol/champions/swain/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.5%",
+        "ban_rate": "1.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -5772,7 +5742,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -5789,12 +5759,12 @@
       "source_url": "https://u.gg/lol/champions/sylas/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "7.1%",
+        "ban_rate": "19%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -5807,7 +5777,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -5824,12 +5794,12 @@
       "source_url": "https://u.gg/lol/champions/syndra/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "7.6%",
+        "ban_rate": "8.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -5842,7 +5812,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -5859,12 +5829,12 @@
       "source_url": "https://u.gg/lol/champions/tahmkench/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.7%",
+        "ban_rate": "1.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -5877,7 +5847,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -5894,12 +5864,12 @@
       "source_url": "https://u.gg/lol/champions/tahmkench/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.1%",
+        "ban_rate": "1.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -5912,7 +5882,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -5929,12 +5899,12 @@
       "source_url": "https://u.gg/lol/champions/taliyah/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.8%",
+        "ban_rate": "0.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -5947,7 +5917,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -5964,12 +5934,12 @@
       "source_url": "https://u.gg/lol/champions/taliyah/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.3%",
+        "ban_rate": "0.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -5982,7 +5952,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -5999,12 +5969,12 @@
       "source_url": "https://u.gg/lol/champions/talon/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "6.3%",
+        "ban_rate": "10.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -6017,7 +5987,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -6034,25 +6004,23 @@
       "source_url": "https://u.gg/lol/champions/talon/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.6%",
+        "ban_rate": "10.7%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "ルーデン コンパニオン",
-            "シャドウフレイム",
-            "ゾーニャの砂時計",
-            "ラバドン デスキャップ",
-            "ヴォイド スタッフ"
+            "アンブラル グレイブ",
+            "妖夢の霊剣",
+            "赤月の刃"
           ],
           "runes": [
             "電撃",
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -6069,12 +6037,12 @@
       "source_url": "https://u.gg/lol/champions/taric/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.3%",
+        "ban_rate": "0.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -6087,7 +6055,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -6104,12 +6072,12 @@
       "source_url": "https://u.gg/lol/champions/teemo/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.1%",
+        "ban_rate": "6.1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -6122,7 +6090,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -6139,12 +6107,12 @@
       "source_url": "https://u.gg/lol/champions/thresh/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "15%",
+        "ban_rate": "12.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -6157,7 +6125,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -6174,12 +6142,12 @@
       "source_url": "https://u.gg/lol/champions/tristana/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.9%",
+        "ban_rate": "8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -6192,7 +6160,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -6209,12 +6177,12 @@
       "source_url": "https://u.gg/lol/champions/tristana/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "10.3%",
+        "ban_rate": "8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -6227,7 +6195,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -6244,12 +6212,12 @@
       "source_url": "https://u.gg/lol/champions/trundle/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.7%",
+        "ban_rate": "0.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -6262,7 +6230,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -6279,12 +6247,12 @@
       "source_url": "https://u.gg/lol/champions/trundle/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.8%",
+        "ban_rate": "0.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -6297,7 +6265,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -6314,12 +6282,12 @@
       "source_url": "https://u.gg/lol/champions/tryndamere/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.4%",
+        "ban_rate": "2.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -6332,7 +6300,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -6349,12 +6317,12 @@
       "source_url": "https://u.gg/lol/champions/twistedfate/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.2%",
+        "ban_rate": "1.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -6367,7 +6335,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -6384,25 +6352,23 @@
       "source_url": "https://u.gg/lol/champions/twitch/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "5.4%",
+        "ban_rate": "7.1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "クラーケン スレイヤー",
-            "ルナーン ハリケーン",
-            "インフィニティ エッジ",
-            "ドミニク リガード",
-            "ガーディアン エンジェル"
+            "コレクター",
+            "ナッシャー トゥース",
+            "スタティック シヴ"
           ],
           "runes": [
             "リーサルテンポ",
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -6419,25 +6385,23 @@
       "source_url": "https://u.gg/lol/champions/udyr/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.6%",
+        "ban_rate": "1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "サンダード スカイ",
-            "ブラック クリーバー",
-            "ステラックの篭手",
-            "デス ダンス",
-            "スピリット ビサージュ"
+            "ライアンドリーの仮面",
+            "アイスボーン ガントレット",
+            "タイタン ハイドラ"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -6454,12 +6418,12 @@
       "source_url": "https://u.gg/lol/champions/udyr/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.1%",
+        "ban_rate": "1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -6472,7 +6436,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -6489,12 +6453,12 @@
       "source_url": "https://u.gg/lol/champions/urgot/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.7%",
+        "ban_rate": "0.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -6507,7 +6471,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -6524,25 +6488,23 @@
       "source_url": "https://u.gg/lol/champions/varus/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.6%",
+        "ban_rate": "0.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "クラーケン スレイヤー",
-            "ルナーン ハリケーン",
-            "インフィニティ エッジ",
-            "ドミニク リガード",
-            "ガーディアン エンジェル"
+            "スタティック シヴ",
+            "妖夢の霊剣",
+            "コレクター"
           ],
           "runes": [
             "リーサルテンポ",
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -6559,25 +6521,23 @@
       "source_url": "https://u.gg/lol/champions/vayne/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.6%",
+        "ban_rate": "5.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "サンダード スカイ",
-            "ブラック クリーバー",
-            "ステラックの篭手",
-            "デス ダンス",
-            "スピリット ビサージュ"
+            "ルインドキング ブレード",
+            "実験的ヘクスプレート",
+            "ストームレイザー"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -6594,25 +6554,23 @@
       "source_url": "https://u.gg/lol/champions/vayne/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.9%",
+        "ban_rate": "5.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
+            "ルインドキング ブレード",
             "クラーケン スレイヤー",
-            "ルナーン ハリケーン",
-            "インフィニティ エッジ",
-            "ドミニク リガード",
-            "ガーディアン エンジェル"
+            "アンブラル グレイブ"
           ],
           "runes": [
             "リーサルテンポ",
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -6629,12 +6587,12 @@
       "source_url": "https://u.gg/lol/champions/veigar/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.4%",
+        "ban_rate": "1.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -6647,7 +6605,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -6664,12 +6622,12 @@
       "source_url": "https://u.gg/lol/champions/velkoz/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.9%",
+        "ban_rate": "1.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -6682,7 +6640,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -6699,12 +6657,12 @@
       "source_url": "https://u.gg/lol/champions/velkoz/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.6%",
+        "ban_rate": "1.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -6717,7 +6675,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -6733,13 +6691,13 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/vex/build/mid",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "52.06%",
+        "pick_rate": "3.1%",
+        "ban_rate": "3.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -6752,7 +6710,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -6769,25 +6727,23 @@
       "source_url": "https://u.gg/lol/champions/vi/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4%",
+        "ban_rate": "1.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "赤月の刃",
-            "ブラック クリーバー",
-            "サンダード スカイ",
-            "デス ダンス",
-            "ガーディアン エンジェル"
+            "トリニティ フォース",
+            "ボルテイク サイクロソード",
+            "赤月の刃"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -6803,13 +6759,13 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/viego/build/jungle",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "49.12%",
+        "pick_rate": "8.6%",
+        "ban_rate": "7.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -6822,7 +6778,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -6839,12 +6795,12 @@
       "source_url": "https://u.gg/lol/champions/viktor/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "9.3%",
+        "ban_rate": "15%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -6857,7 +6813,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -6874,12 +6830,12 @@
       "source_url": "https://u.gg/lol/champions/vladimir/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.5%",
+        "ban_rate": "6.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -6892,7 +6848,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -6909,12 +6865,12 @@
       "source_url": "https://u.gg/lol/champions/vladimir/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.4%",
+        "ban_rate": "6.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -6927,7 +6883,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -6943,26 +6899,24 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/volibear/build/top",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "49.54%",
+        "pick_rate": "3.9%",
+        "ban_rate": "1.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "サンダード スカイ",
-            "ブラック クリーバー",
-            "ステラックの篭手",
-            "デス ダンス",
-            "スピリット ビサージュ"
+            "黄昏と暁",
+            "スタティック シヴ",
+            "ヘクステック ガンブレード"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -6978,13 +6932,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/volibear/build/jungle",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "48.84%",
+        "pick_rate": "1.2%",
+        "ban_rate": "1.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -6997,7 +6951,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -7014,12 +6968,12 @@
       "source_url": "https://u.gg/lol/champions/warwick/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.4%",
+        "ban_rate": "1.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -7032,7 +6986,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -7049,25 +7003,23 @@
       "source_url": "https://u.gg/lol/champions/warwick/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3%",
+        "ban_rate": "1.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "赤月の刃",
-            "ブラック クリーバー",
-            "サンダード スカイ",
-            "デス ダンス",
-            "ガーディアン エンジェル"
+            "ルインドキング ブレード",
+            "ストライドブレイカー",
+            "タイタン ハイドラ"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -7084,12 +7036,12 @@
       "source_url": "https://u.gg/lol/champions/xayah/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.8%",
+        "ban_rate": "0.8%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -7102,7 +7054,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -7119,12 +7071,12 @@
       "source_url": "https://u.gg/lol/champions/xerath/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "4.5%",
+        "ban_rate": "9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -7137,7 +7089,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -7154,12 +7106,12 @@
       "source_url": "https://u.gg/lol/champions/xerath/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.8%",
+        "ban_rate": "9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -7172,7 +7124,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -7189,25 +7141,23 @@
       "source_url": "https://u.gg/lol/champions/xinzhao/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.2%",
+        "ban_rate": "0.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "赤月の刃",
-            "ブラック クリーバー",
-            "サンダード スカイ",
-            "デス ダンス",
-            "ガーディアン エンジェル"
+            "タイタン ハイドラ",
+            "スタティック シヴ",
+            "プロフェイン ハイドラ"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -7224,12 +7174,12 @@
       "source_url": "https://u.gg/lol/champions/yasuo/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3.5%",
+        "ban_rate": "22.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -7242,7 +7192,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -7259,25 +7209,23 @@
       "source_url": "https://u.gg/lol/champions/yasuo/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "8.9%",
+        "ban_rate": "22.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "ルーデン コンパニオン",
-            "シャドウフレイム",
-            "ゾーニャの砂時計",
-            "ラバドン デスキャップ",
-            "ヴォイド スタッフ"
+            "イモータル シールドボウ",
+            "ウィッツ エンド",
+            "コレクター"
           ],
           "runes": [
             "電撃",
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -7294,25 +7242,23 @@
       "source_url": "https://u.gg/lol/champions/yasuo/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.3%",
+        "ban_rate": "22.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "クラーケン スレイヤー",
-            "ルナーン ハリケーン",
-            "インフィニティ エッジ",
-            "ドミニク リガード",
-            "ガーディアン エンジェル"
+            "イモータル シールドボウ",
+            "ストームレイザー",
+            "ボルテイク サイクロソード"
           ],
           "runes": [
             "リーサルテンポ",
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -7328,26 +7274,24 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/yone/build/top",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "50.09%",
+        "pick_rate": "8.5%",
+        "ban_rate": "12.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "サンダード スカイ",
-            "ブラック クリーバー",
-            "ステラックの篭手",
-            "デス ダンス",
-            "スピリット ビサージュ"
+            "ルインドキング ブレード",
+            "ストームレイザー",
+            "ウィッツ エンド"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -7363,13 +7307,13 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/yone/build/mid",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "50.04%",
+        "pick_rate": "7.9%",
+        "ban_rate": "12.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -7382,7 +7326,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -7399,25 +7343,24 @@
       "source_url": "https://u.gg/lol/champions/yorick/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.8%",
+        "ban_rate": "5.4%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
-            "サンダード スカイ",
-            "ブラック クリーバー",
-            "ステラックの篭手",
-            "デス ダンス",
-            "スピリット ビサージュ"
+            "トリニティ フォース",
+            "心の鋼",
+            "ボルテイク サイクロソード",
+            "ライアンドリーの仮面"
           ],
           "runes": [
             "征服者",
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -7433,26 +7376,24 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/yunara/build/adc",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "50.65%",
+        "pick_rate": "15.8%",
+        "ban_rate": "8.5%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
+            "ユン・タル ワイルドアロー",
             "クラーケン スレイヤー",
-            "ルナーン ハリケーン",
-            "インフィニティ エッジ",
-            "ドミニク リガード",
-            "ガーディアン エンジェル"
+            "テルミヌス"
           ],
           "runes": [
             "リーサルテンポ",
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -7469,12 +7410,12 @@
       "source_url": "https://u.gg/lol/champions/yuumi/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "6%",
+        "ban_rate": "7.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -7487,7 +7428,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -7503,13 +7444,13 @@
       "tier": "normal",
       "source_url": "https://u.gg/lol/champions/zaahen/build/top",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "49.88%",
+        "pick_rate": "2.9%",
+        "ban_rate": "1.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -7522,7 +7463,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -7539,12 +7480,12 @@
       "source_url": "https://u.gg/lol/champions/zac/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.5%",
+        "ban_rate": "1.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -7557,7 +7498,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "主力スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "テレポート"
@@ -7574,12 +7515,12 @@
       "source_url": "https://u.gg/lol/champions/zac/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3%",
+        "ban_rate": "1.2%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -7592,7 +7533,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -7609,12 +7550,12 @@
       "source_url": "https://u.gg/lol/champions/zed/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.7%",
+        "ban_rate": "24.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -7627,7 +7568,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -7644,12 +7585,12 @@
       "source_url": "https://u.gg/lol/champions/zed/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "8.3%",
+        "ban_rate": "24.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -7662,7 +7603,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -7678,13 +7619,13 @@
       "tier": "strong",
       "source_url": "https://u.gg/lol/champions/zeri/build/adc",
       "stats": {
-        "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "win_rate": "51.48%",
+        "pick_rate": "4.8%",
+        "ban_rate": "1%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -7697,7 +7638,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -7714,12 +7655,12 @@
       "source_url": "https://u.gg/lol/champions/ziggs/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "0.7%",
+        "ban_rate": "0.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -7732,7 +7673,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -7749,12 +7690,12 @@
       "source_url": "https://u.gg/lol/champions/ziggs/build/adc",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.7%",
+        "ban_rate": "0.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "クラーケン スレイヤー",
             "ルナーン ハリケーン",
@@ -7767,7 +7708,7 @@
             "冷静沈着",
             "レジェンド: 血脈"
           ],
-          "skills": "主力攻撃スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "ヒール"
@@ -7784,12 +7725,12 @@
       "source_url": "https://u.gg/lol/champions/zilean/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "3%",
+        "ban_rate": "1.9%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -7802,7 +7743,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -7819,12 +7760,12 @@
       "source_url": "https://u.gg/lol/champions/zoe/build/mid",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.9%",
+        "ban_rate": "3.6%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ルーデン コンパニオン",
             "シャドウフレイム",
@@ -7837,7 +7778,7 @@
             "血の味わい",
             "目玉コレクター"
           ],
-          "skills": "主力ダメージスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
@@ -7854,12 +7795,12 @@
       "source_url": "https://u.gg/lol/champions/zyra/build/jungle",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "1.2%",
+        "ban_rate": "2.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "赤月の刃",
             "ブラック クリーバー",
@@ -7872,7 +7813,7 @@
             "凱旋",
             "宇宙の英知"
           ],
-          "skills": "ファームスキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "スマイト"
@@ -7889,12 +7830,12 @@
       "source_url": "https://u.gg/lol/champions/zyra/build/support",
       "stats": {
         "win_rate": null,
-        "pick_rate": null,
-        "ban_rate": null
+        "pick_rate": "2.3%",
+        "ban_rate": "2.3%"
       },
       "builds": [
         {
-          "name": "フォールバックビルド",
+          "name": "U.GG自動取得ビルド",
           "items": [
             "ソラリのロケット",
             "騎士の誓い",
@@ -7907,7 +7848,7 @@
             "生命の泉",
             "ボーンアーマー"
           ],
-          "skills": "CC・補助スキル優先",
+          "skills": "Q → W → E",
           "spells": [
             "フラッシュ",
             "イグナイト"
