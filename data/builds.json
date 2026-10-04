@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T23:43:00.187457+00:00",
+  "updated_at": "2026-10-04T23:51:10.718183+00:00",
   "source": "ugg-playwright-main-lanes-v1",
   "ddragon_version": "16.19.1",
   "total_entries": 226,
@@ -14,12 +14,12 @@
       "source_url": "https://u.gg/lol/champions/aatrox/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": "6.5%",
-        "ban_rate": "7.8%"
+        "pick_rate": null,
+        "ban_rate": null
       },
       "builds": [
         {
-          "name": "U.GG自動取得ビルド",
+          "name": "フォールバックビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -32,7 +32,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "Q → W → E",
+          "skills": "主力スキル優先",
           "spells": [
             "フラッシュ",
             "テレポート"
