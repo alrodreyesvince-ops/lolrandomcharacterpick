@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-06T02:10:14.536598+00:00",
+  "updated_at": "2026-10-07T00:36:54.993560+00:00",
   "source": "ugg-playwright-main-lanes-v1",
-  "ddragon_version": "16.19.1",
+  "ddragon_version": "16.20.1",
   "total_entries": 226,
   "note": "PlaywrightでU.GGを実ブラウザ表示し、表示後の画像alt/aria/textから統計・アイテム・ルーン・スペル・スキル順を抽出。取得失敗時はフォールバックビルド。",
   "champions": [
@@ -14,12 +14,12 @@
       "source_url": "https://u.gg/lol/champions/aatrox/build/top",
       "stats": {
         "win_rate": null,
-        "pick_rate": "6.5%",
-        "ban_rate": "7.8%"
+        "pick_rate": null,
+        "ban_rate": null
       },
       "builds": [
         {
-          "name": "U.GG自動取得ビルド",
+          "name": "フォールバックビルド",
           "items": [
             "サンダード スカイ",
             "ブラック クリーバー",
@@ -32,7 +32,7 @@
             "凱旋",
             "背水の陣"
           ],
-          "skills": "Q → W → E",
+          "skills": "主力スキル優先",
           "spells": [
             "フラッシュ",
             "テレポート"
