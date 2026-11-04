@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-03T03:01:34.989340+00:00",
+  "updated_at": "2026-11-04T01:26:13.809298+00:00",
   "source": "ugg-playwright-main-lanes-v1",
-  "ddragon_version": "16.21.1",
+  "ddragon_version": "16.22.1",
   "total_entries": 226,
   "note": "PlaywrightでU.GGを実ブラウザ表示し、表示後の画像alt/aria/textから統計・アイテム・ルーン・スペル・スキル順を抽出。取得失敗時はフォールバックビルド。",
   "champions": [
